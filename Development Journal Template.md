@@ -21,7 +21,7 @@ I also wanted a creative source to help demostrate Anti-Aliasing and learn how i
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
 ```Markdown
-# Unreal Engine Documentation
+# Anti-Aliasing Unreal Engine Documentation
 
 I wanted to create an emitter which takes advantage of spread and focus, which was a technique I learned from a previous assignment where the spatialisation of an object changes depending on distance. I also wanted to work specifically with a `Spline Component` to encapsulate the entire ship with an “Ocean Emitter”. This led me to read the Unreal Blueprints API References and Wwise 3D Positioning documentation (Unreal Engine Blueprint API Reference | Unreal Engine 5.4 Documentation | Epic Developer Community, s.d., AudioKinetic Inc, s.d.).
 
