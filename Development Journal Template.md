@@ -1,10 +1,10 @@
-# [TASK NAME]
+# Task: Anti-Aliasing
 
-[Module Name]
+Technical Art
 
-[Student Name]
+Sidd Ghosalkar
 
-[Student ID]
+2304613
 
 ## Research
 
