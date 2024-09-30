@@ -21,7 +21,12 @@ As I have done research regarding the audio identity and developing audio assets
 
 I also wanted a creative source to help develop the parachute audio assets and learn how it should function within the game’s narrative.
 ```
+```Markdown
 
+As I have done research regarding Anti-Aliasing for this project in previous formative assignments. I looked into Unreal engine that will help create a more immersive experience. I wanted to focus on official documentation to improve my ability to learn new techniques without explicit instructions.
+
+I also wanted a creative source to help demostrate Anti-Aliasing and learn how it should function within the game.
+```
 #### Sources
 
 - An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
