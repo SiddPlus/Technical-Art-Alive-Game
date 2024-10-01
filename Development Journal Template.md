@@ -20,7 +20,7 @@ I also wanted a creative source to help demostrate Anti-Aliasing and learn how i
 - List the aspects analysed in reference to the current task.
 
 ```Markdown
-# Anti-Aliasing Unreal Engine Documentation
+Anti-Aliasing Unreal Engine Documentation
 
 "Anti-Aliasing and Upscaling in Unreal Engine" is part of the official Unreal Engine documentation provided by Epic Games, a leader in game development technology. Epic Games, known for creating the Unreal Engine, is renowned for its robust tools used in game design, film production, and interactive experiences. The Unreal Engine has received critical acclaim for its high-fidelity graphics and user-friendly interface, making it a standard in the industry. The documentation is offers in-depth technical guidance and insights to developers of all levels. 
 
@@ -30,7 +30,7 @@ I also wanted a creative source to help demostrate Anti-Aliasing and learn how i
 Example: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
 
 
-# https://link.springer.com/article/10.1007/s11263-022-01672-y
+Anti-Aliasing SpringerLink
 
 "Delving Deeper into Anti-Aliasing in ConvNets" is a scientific article published in the International Journal of Computer Vision, a peer-reviewed journal known for its influential work in the fields of computer vision and image processing. The article is authored by prominent researchers, which lends it credibility in the academic community. The journal itself has a strong reputation for high-quality publications, often cited in major studies and technical advancements. However, like all academic work, the article may face scrutiny in terms of reproducibility.
 
@@ -40,7 +40,7 @@ Example: I found their implementation and choice great for the context of their 
 Example: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
 
 
-# https://www.youtube.com/watch?v=NbrA4Nxd8Vo
+Anti-Aliasing Digital Foundry
 
 The video titled "Anti-Aliasing - What Is It And Why Do We Need It?" is produced by Digital Foundry, a popular YouTube channel dedicated to explaining complex technology topics in simple terms. The channel has gained a reputation for its clear, concise explanations and has been well-received by both tech enthusiasts and beginners alike. The video explores anti-aliasing, a technique in digital graphics, and has garnered attention for its accessible approach. Digital Foundry is known for credible content in tech education, though some advanced users may find the material overly simplified.
 
