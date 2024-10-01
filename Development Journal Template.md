@@ -110,6 +110,7 @@ Here you can put links required for delivery of the task, ensure they are proper
 
 Anti Aliasing and Upscaling in Unreal Engine | Unreal Engine 5.4 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/anti-aliasing-and-upscaling-in-unreal-engine
 
+Zou, X., Xiao, F., Yu, Z., Li, Y. and Lee, Y. J. (2023) 'Delving Deeper into Anti-Aliasing in ConvNets' In: International Journal of Computer Vision 131 (1) pp.67–81.
 ## Declared Assets
 
 - Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
