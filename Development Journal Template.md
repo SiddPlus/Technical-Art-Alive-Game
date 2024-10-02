@@ -10,9 +10,9 @@ Sidd Ghosalkar
 
 ```Markdown
 
-As I have done research regarding Anti-Aliasing for this project in previous formative assignments. I looked into Unreal engine that will help create a more immersive experience. I wanted to focus on official documentation to improve my ability to learn new techniques without explicit instructions.
+As I have done research regarding Anti-Aliasing for this project. I looked into Unreal engine that will help create a more immersive experience. I wanted to focus on official documentation to improve my ability to learn new techniques without explicit instructions.
 
-I also wanted a creative source to help demostrate Anti-Aliasing and learn how it should function within the game.
+I also wanted a tech expert sources to help demostrate Anti-Aliasing and learn how it should function within the game.
 ```
 #### Sources
 
