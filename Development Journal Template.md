@@ -27,7 +27,8 @@ Anti-Aliasing Unreal Engine Documentation
 (The different anti-aliasing techniques like Temporal Anti-Aliasing (TAA), Fast Approximate Anti-Aliasing (FXAA), and Multisample Anti-Aliasing (MSAA). These techniques are assessed based on their effects on visual quality, particularly the reduction of jagged edges, and their impact on performance. The documentation also addresses upscaling techniques that improve image sharpness while balancing rendering performance.)
 
 (An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
+Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
 
 
 Anti-Aliasing SpringerLink
@@ -37,7 +38,8 @@ Anti-Aliasing SpringerLink
 (The various anti-aliasing techniques, such as MSAA, FXAA, and TAA, they effects on visual quality in a real-time scene. The focus will be on how well each method reduces jagged edges and visual artifacts. Additionally, you will assess the trade-offs between visual quality and system performance, considering factors like rendering speed, frame rates, and GPU usage. Finally, the ability of each technique to handle complex real-time scenes will be evaluated to find an optimal balance between performance and image quality.)
 
 (An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
+Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
 
 
 Anti-Aliasing Digital Foundry
@@ -47,7 +49,8 @@ The video titled "Anti-Aliasing - What Is It And Why Do We Need It?" is produced
 (The video explores anti-aliasing, a technique that reduces jagged edges in rendered images. It explains various anti-aliasing methods, such as MSAA (Multi-Sample Anti-Aliasing), FXAA (Fast Approximate Anti-Aliasing), and TAA (Temporal Anti-Aliasing). These techniques balance visual quality with performance, improving image clarity while managing hardware resource usage. The video emphasizes the trade-offs between sharper visuals and the computational cost required for each method.)
 
 (An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
+Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
 ```
 
 ## Implementation
@@ -119,12 +122,6 @@ Anti Aliasing and Upscaling in Unreal Engine | Unreal Engine 5.4 Documentation |
 Zou, X., Xiao, F., Yu, Z., Li, Y. and Lee, Y. J. (2023) 'Delving Deeper into Anti-Aliasing in ConvNets' In: International Journal of Computer Vision 131 (1) pp.67–81.
 
 Digital Foundry: Anti-Aliasing - What Is It And Why Do We Need It? (2018) At: https://www.youtube.com/watch?v=NbrA4Nxd8Vo
-
-## Declared Assets
-
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
-
-Infinity Blade: Adversaries in Epic Content - UE Marketplace (s.d.) At: https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies (Accessed  09/09/2024).
 
 ---
 
