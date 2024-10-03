@@ -91,8 +91,8 @@ public class HelloWorld : MonoBehaviour
 
 Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
+- [Outcome Video Link](https://youtu.be/G4ZIajlx7_8)
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
 - [Example Build Link](https://samperson.itch.io/desktop-goose)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
