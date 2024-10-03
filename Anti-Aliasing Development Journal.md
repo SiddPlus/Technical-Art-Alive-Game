@@ -140,6 +140,7 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 <br>
 
 [SpinningCube Blueprint] (https://blueprintue.com/blueprint/s7-06ez-/)
+
 [ObjectManager Blueprint] (https://blueprintue.com/blueprint/-n7cvcms/)
 *(Figure 1. An example of using a script as a figure. This script has a `Start()` method!)*
 
