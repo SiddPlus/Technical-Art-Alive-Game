@@ -95,7 +95,7 @@ Here you can put links required for delivery of the task, ensure they are proper
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
 - [Example Build Link](https://samperson.itch.io/desktop-goose)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://youtu.be/G4ZIajlx7_8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Figure 3. An example of an embedded video using a HTML code snippet.*
 
