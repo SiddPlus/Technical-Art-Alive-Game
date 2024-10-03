@@ -58,6 +58,8 @@ Example 2: I found their implementation and choice great for the context of thei
 
 ```Markdown
 Overview: TSR is a newer anti-aliasing method designed to upscale lower-resolution images while maintaining clarity and reducing jagged edges. It's particularly effective in real-time rendering environments, like video games, where performance and image quality are essential.
+
+
 ```
 
 Pros:
@@ -73,6 +75,8 @@ Cons:
 
 ```Markdown
 Overview: MSAA is one of the most popular anti-aliasing techniques. It works by sampling multiple points within each pixel to determine the final color, providing a balance between quality and performance. MSAA is mostly used in 3D rendering environments.
+
+
 ```
 
 Pros:
@@ -89,6 +93,8 @@ Cons:
 
 ```Markdown
 Overview: TAA is a more modern anti-aliasing method that reduces aliasing by averaging pixels over multiple frames, using motion vectors to track movement and maintain smoothness.
+
+
 ```
 Pros:
 - Very effective at reducing flickering and shimmering, especially in motion.
@@ -104,6 +110,8 @@ Cons:
 
 ```Markdown
 Overview: FXAA is a post-processing anti-aliasing method that works by smoothing out edges in the final image after rendering. It is widely used due to its simplicity and low performance impact.
+
+
 ```
 Pros:
 - Extremely fast, with minimal impact on performance.
@@ -128,6 +136,10 @@ Cons:
 
 ```Markdown
 In conclusion, TSR is the optimal choice for high-quality rendering with balanced performance, although it may introduce artifacts in motion-heavy scenes. MSAA excels at handling geometric edges, but it struggles with transparency and shader aliasing. TAA offers a solid balance between performance and quality, particularly in scenes with a lot of movement, though it may cause some blurring of fine details. FXAA is best suited for scenarios where performance is critical, but this comes at the expense of image sharpness and overall detail.
+
+
+
+
 ```
 
 ## Implementation
