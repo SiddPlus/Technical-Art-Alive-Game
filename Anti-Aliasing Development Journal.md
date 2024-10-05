@@ -16,9 +16,6 @@ Additionally, I sought insights from technical experts to deepen my understandin
 ```
 #### Sources
 
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-
 ```Markdown
 Anti-Aliasing Unreal Engine Documentation
 
