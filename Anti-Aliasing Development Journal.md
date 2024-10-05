@@ -10,9 +10,9 @@ Sidd Ghosalkar
 
 ```Markdown
 
-As I have done research regarding Anti-Aliasing for this project. I looked into Unreal engine that will help create a more immersive experience. I wanted to focus on official documentation to improve my ability to learn new techniques without explicit instructions.
+For this project, I conducted extensive research on Anti-Aliasing and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
 
-I also wanted a tech expert sources to help demostrate Anti-Aliasing and learn how it should function within the game.
+Additionally, I sought insights from technical experts to deepen my understanding of Anti-Aliasing and ensure its proper implementation within the game.
 ```
 #### Sources
 
@@ -26,9 +26,7 @@ Anti-Aliasing Unreal Engine Documentation
 
 The different anti-aliasing techniques like Temporal Anti-Aliasing (TAA), Fast Approximate Anti-Aliasing (FXAA), and Multisample Anti-Aliasing (MSAA). These techniques are assessed based on their effects on visual quality, particularly the reduction of jagged edges, and their impact on performance. The documentation also addresses upscaling techniques that improve image sharpness while balancing rendering performance.
 
-(An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
-Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+In conclusion, I found the discussion on anti-aliasing and upscaling techniques in Unreal Engine to be insightful, particularly in how various methods, such as Temporal Anti-Aliasing (TAA) and DLSS, enhance visual fidelity. The emphasis on achieving a balance between performance and visual fidelity was well articulated. However, I believe a more in-depth exploration of how different hardware configurations impact these techniques would have enhanced the discussion. Overall, it offers valuable insight for optimizing game visuals while maintaining performance efficiency.
 
 
 Anti-Aliasing SpringerLink
@@ -37,9 +35,7 @@ Anti-Aliasing SpringerLink
 
 The various anti-aliasing techniques, such as MSAA, FXAA, and TAA, they effects on visual quality in a real-time scene. The focus will be on how well each method reduces jagged edges and visual artifacts. Additionally, you will assess the trade-offs between visual quality and system performance, considering factors like rendering speed, frame rates, and GPU usage. Finally, the ability of each technique to handle complex real-time scenes will be evaluated to find an optimal balance between performance and image quality.
 
-(An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
-Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+I found the article insightful, particularly in its exploration of advanced anti-aliasing techniques for convolutional neural networks. The thorough examination of current methods and the suggested improvements were particularly commendable. However, I felt that certain aspects, especially practical applications, could have been explored in greater detail. While I agree with the need for refined methods in image analysis, I believe more emphasis on real-world implementation would have strengthened the overall argument. Overall, the article provided valuable insights into a critical aspect of computer vision.
 
 
 Anti-Aliasing Digital Foundry
@@ -48,9 +44,7 @@ The video titled "Anti-Aliasing - What Is It And Why Do We Need It?" is produced
 
 The video explores anti-aliasing, a technique that reduces jagged edges in rendered images. It explains various anti-aliasing methods, such as MSAA (Multi-Sample Anti-Aliasing), FXAA (Fast Approximate Anti-Aliasing), and TAA (Temporal Anti-Aliasing). These techniques balance visual quality with performance, improving image clarity while managing hardware resource usage. The video emphasizes the trade-offs between sharper visuals and the computational cost required for each method.
 
-(An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
-Example 1: I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
-Example 2: I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.)
+In reflecting on the video about anti-aliasing, I appreciated the clear explanations and visuals that effectively illustrated complex concepts. The breakdown of different techniques was particularly helpful for understanding their applications in graphics. However, I did feel that the technical language could be daunting for beginners. While I fully agree on the significance of anti-aliasing for improving visual quality, I believe a more straightforward introduction would have made the content more approachable for a wider audience.
 ```
 ## Anti-Aliasing Techniques Research
 
