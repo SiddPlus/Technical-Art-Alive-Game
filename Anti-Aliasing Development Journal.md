@@ -132,9 +132,15 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 
 [SpinningCube Blueprint] (https://blueprintue.com/blueprint/s7-06ez-/)
 
+*(Link 1's code allows an object spin)*
+
 [ObjectManager Blueprint] (https://blueprintue.com/blueprint/-n7cvcms/)
 
-*(Figure 1. An example of using a script as a figure. This script has a `Start()` method!)*
+*(Link 2's code allows an object to be spawned in a random point contantly then deletes itself after couple of seconds)*
+
+```Markdown
+I applied 4 different anti-aliasing methods when spinning objects were spawned, I measured the FPS count and the stress on the gpu for each method.
+```
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
