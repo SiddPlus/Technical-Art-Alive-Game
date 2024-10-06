@@ -139,7 +139,7 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 *(Link 2's code allows an object to be spawned in a random point contantly then deletes itself after couple of seconds)*
 
 ```Markdown
-I applied 4 different anti-aliasing methods when spinning objects were spawned, I measured the FPS count and the stress on the gpu for each method.
+I applied four different anti-aliasing methods while spawning spinning objects, and for each method, I measured both the FPS count and the stress on the GPU. This allowed me to analyze the performance impact and GPU load caused by each anti-aliasing technique, helping to determine which method provided the best balance between visual quality and system efficiency.
 ```
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
