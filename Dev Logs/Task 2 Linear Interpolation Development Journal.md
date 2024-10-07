@@ -45,8 +45,9 @@ The wind becomes more prominent in the mix and its volume and speed is based on 
 
 I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.
 
-![](../Dev%20Logs/resourcese/OIP.jpg)
+
 ```
+![test](../Dev%20Logs/Resources/OIP.jpg)
 
 ## Implementation
 
