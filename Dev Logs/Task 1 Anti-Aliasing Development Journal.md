@@ -114,9 +114,6 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
 <br>
 
 [SpinningCube Blueprint] (https://blueprintue.com/blueprint/s7-06ez-/)
@@ -137,6 +134,7 @@ I applied four different anti-aliasing methods while spawning spinning objects, 
 
 - Did you try any new software or approaches? How did the effect development?
 
+I used Markdown for the first time to write this development log. Overall, writing in Markdown went well; however, I initially struggled with embedding videos and images, as well as HTML, which slowed down the documentation process. On the other hand, I also used Zotero for the first time to manage my references. Utilizing Zotero significantly streamlined the referencing process, making it quicker and more efficient.
 <br>
 
 ![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
