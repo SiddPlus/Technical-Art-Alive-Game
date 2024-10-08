@@ -132,8 +132,6 @@ I applied four different anti-aliasing methods while spawning spinning objects, 
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
-- Did you try any new software or approaches? How did the effect development?
-
 I used Markdown for the first time to write this development log. Overall, writing in Markdown went well; however, I initially struggled with embedding videos and images, as well as HTML, which slowed down the documentation process. On the other hand, I also used Zotero for the first time to manage my references. Utilizing Zotero significantly streamlined the referencing process, making it quicker and more efficient.
 <br>
 
