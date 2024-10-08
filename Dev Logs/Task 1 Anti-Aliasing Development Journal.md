@@ -121,9 +121,13 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 
 [SpinningCube Blueprint] (https://blueprintue.com/blueprint/s7-06ez-/)
 
+<iframe src="https://blueprintue.com/render/s7-06ez-/" scrolling="no" allowfullscreen></iframe>
+
 *(Link 1's code allows an object spin)*
 
 [ObjectManager Blueprint] (https://blueprintue.com/blueprint/-n7cvcms/)
+
+<iframe src="https://blueprintue.com/render/-n7cvcms/" scrolling="no" allowfullscreen></iframe>
 
 *(Link 2's code allows an object to be spawned in a random point contantly then deletes itself after couple of seconds)*
 
