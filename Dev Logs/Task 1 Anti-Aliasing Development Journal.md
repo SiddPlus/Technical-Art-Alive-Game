@@ -8,15 +8,12 @@ Sidd Ghosalkar
 
 ## Research
 
-```Markdown
-
 For this project, I conducted extensive research on Anti-Aliasing and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
 
 Additionally, I sought insights from technical experts to deepen my understanding of Anti-Aliasing and ensure its proper implementation within the game.
-```
+
 #### Sources
 
-```Markdown
 Anti-Aliasing Unreal Engine Documentation
 
 "Anti-Aliasing and Upscaling in Unreal Engine" is part of the official Unreal Engine documentation provided by Epic Games, a leader in game development technology. Epic Games, known for creating the Unreal Engine, is renowned for its robust tools used in game design, film production, and interactive experiences. The Unreal Engine has received critical acclaim for its high-fidelity graphics and user-friendly interface, making it a standard in the industry. The documentation offers in-depth technical guidance and insights to developers of all levels. 
@@ -42,14 +39,12 @@ The video titled "Anti-Aliasing - What Is It And Why Do We Need It?" is produced
 The video explores anti-aliasing, a technique that reduces jagged edges in rendered images. It explains various anti-aliasing methods, such as MSAA (Multi-Sample Anti-Aliasing), FXAA (Fast Approximate Anti-Aliasing), and TAA (Temporal Anti-Aliasing). These techniques balance visual quality with performance, improving image clarity while managing hardware resource usage. The video emphasizes the trade-offs between sharper visuals and the computational cost required for each method.
 
 In reflecting on the video about anti-aliasing, I appreciated the clear explanations and visuals that effectively illustrated complex concepts. The breakdown of different techniques was particularly helpful for understanding their applications in graphics. However, I did feel that the technical language could be daunting for beginners. While I fully agree on the significance of anti-aliasing for improving visual quality, I believe a more straightforward introduction would have made the content more approachable for a wider audience.
-```
+
 ## Anti-Aliasing Techniques Research
 
 ### Temporal Super Resolution (TSR)
 
-```Markdown
 Overview: TSR is a newer anti-aliasing method designed to upscale lower-resolution images while maintaining clarity and reducing jagged edges. It's particularly effective in real-time rendering environments, like video games, where performance and image quality are essential.
-```
 
 Pros:
 - Excellent for maintaining high performance with high-quality visuals.
@@ -62,9 +57,7 @@ Cons:
 
 ### Multisample Anti-Aliasing (MSAA)
 
-```Markdown
 Overview: MSAA is one of the most popular anti-aliasing techniques. It works by sampling multiple points within each pixel to determine the final color, providing a balance between quality and performance. MSAA is mostly used in 3D rendering environments.
-```
 
 Pros:
 - Produces high-quality anti-aliasing with relatively moderate performance costs.
@@ -78,9 +71,8 @@ Cons:
 
 ### Temporal Anti-Aliasing (TAA)
 
-```Markdown
 Overview: TAA is a more modern anti-aliasing method that reduces aliasing by averaging pixels over multiple frames, using motion vectors to track movement and maintain smoothness.
-```
+
 Pros:
 - Very effective at reducing flickering and shimmering, especially in motion.
 - Improves the appearance of detailed textures and softens hard edges effectively.
@@ -93,9 +85,8 @@ Cons:
 
 ### Fast Approximate Anti-Aliasing (FXAA)
 
-```Markdown
 Overview: FXAA is a post-processing anti-aliasing method that works by smoothing out edges in the final image after rendering. It is widely used due to its simplicity and low performance impact.
-```
+
 Pros:
 - Extremely fast, with minimal impact on performance.
 - Works on the entire image, not just geometric edges, so it also reduces aliasing on textures and shaders.
@@ -117,9 +108,7 @@ Cons:
 
 ### Conclusion
 
-```Markdown
 In conclusion, TSR is the optimal choice for high-quality rendering with balanced performance, although it may introduce artifacts in motion-heavy scenes. MSAA excels at handling geometric edges, but it struggles with transparency and shader aliasing. TAA offers a solid balance between performance and quality, particularly in scenes with a lot of movement, though it may cause some blurring of fine details. FXAA is best suited for scenarios where performance is critical, but this comes at the expense of image sharpness and overall detail.
-```
 
 ## Implementation
 
@@ -138,9 +127,7 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 
 *(Link 2's code allows an object to be spawned in a random point contantly then deletes itself after couple of seconds)*
 
-```Markdown
 I applied four different anti-aliasing methods while spawning spinning objects, and for each method, I measured both the FPS count and the stress on the GPU. This allowed me to analyze the performance impact and GPU load caused by each anti-aliasing technique, helping to determine which method provided the best balance between visual quality and system efficiency.
-```
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
@@ -157,19 +144,12 @@ I applied four different anti-aliasing methods while spawning spinning objects, 
 
 ## Outcome
 
-Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
-
 - [Outcome Video Link](https://youtu.be/G4ZIajlx7_8)
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G4ZIajlx7_8?si=4SG623AUDRrF7nIB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 *Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
 
 ## Critical Reflection
 
