@@ -145,11 +145,10 @@ I applied four different anti-aliasing methods while spawning spinning objects, 
 ## Outcome
 
 - [Outcome Video Link](https://youtu.be/G4ZIajlx7_8)
-- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/G4ZIajlx7_8?si=4SG623AUDRrF7nIB" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Figure 3. An example of an embedded video using a HTML code snippet.*
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
 
 ## Critical Reflection
 
