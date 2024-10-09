@@ -144,9 +144,11 @@ Here you can put links required for delivery of the task, ensure they are proper
 
 ## Bibliography
 
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
+WTF Is? Material - Linear Interpolate in Unreal Engine 4 (2016) At: https://www.youtube.com/watch?v=fckeT6GyvPc 
 
-Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/index.php?title=Video_game_development&oldid=1240603537 (Accessed  03/09/2024).
+Zucconi, A. (2021) Linear Interpolation. At: https://www.alanzucconi.com/2021/01/24/linear-interpolation/ 
+
+Linear Interpolation Explained (s.d.) At: https://gamedev.net/tutorials/programming/general-and-gameplay-programming/linear-interpolation-explained-r5892 
 
 ## Declared Assets
 
