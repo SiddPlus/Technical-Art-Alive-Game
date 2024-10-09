@@ -133,19 +133,3 @@ Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/inde
 
 Infinity Blade: Adversaries in Epic Content - UE Marketplace (s.d.) At: https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies (Accessed  09/09/2024).
 
----
-
-```Markdown
-# General Tips
-
-- Use plenty of images and videos to demonstrate your point. You can embed YouTube tutorials, your own recordings, etc.
-- Always reference! Even documentation, tutorials and anything you used for your assignment. Use an inline reference for the sentence and a bibliography reference at the end.
-- Word count is not important, you can also chose to use bullet points. As long as it is clear and readable, the format your decide to use can be flexible.
-- You are free to use AI but please ensure you have made a note in the declared assets, for example if you have a script called Test.cs , you should note that AI was used to in the creation of this script. You can use a bullet point list for each asset used like:
-
-The following assets were created or modified with the use of GPT 4o:
-- Test.cs
-- AnotherScript.cs
-- Development Journal.html
-
-```
