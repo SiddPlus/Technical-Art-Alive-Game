@@ -140,7 +140,7 @@ I used Markdown for the first time to write this development log. Overall, writi
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
-- Did you have any issues completing the task? How did you overcome them?
+I encountered difficulties embedding videos, images, and HTML in Markdown while working on this dev log. To resolve these issues, I turned to Google for solutions and also sought assistance from my lecturer.
 
 ## Outcome
 
