@@ -10,14 +10,35 @@ Sidd Ghosalkar
 
 ### What sources or references have you identified as relevant to this task?
 
-- What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
-- What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
-
 #### Sources
 
 - An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
 - List the aspects analysed in reference to the current task.
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
+
+Linear Interpolation Matthew Wadstein
+
+The video titled "WTF Is? Material - Linear Interpolate in Unreal Engine 4" from the YouTube channel of Matthew Wadstein, a well-known developer and educator in the game development community, particularly for Unreal Engine 4 (UE4). Wadstein's "WTF Is?" series breaks down complex Unreal Engine concepts into accessible, short tutorials. His work has gained recognition within the game development community due to its practicality and clarity, with the channel serving as a go-to resource for beginners and advanced users alike. While Wadstein's tutorials are widely praised for their educational value, they are considered most useful when supplemented by hands-on practice.
+
+In the video, Matthew Wadstein covers the fundamental aspects of using linear interpolation (lerp) in Unreal Engine. He explains the core concept of lerp, demonstrating how to implement it using the Lerp node within materials. The tutorial shows practical applications such as blending between two values, like colors or positions, over time or based on a parameter. Wadstein also explores controlling interpolation with parameters such as time or user input, and provides visual feedback of the transition results directly within Unreal Engine’s interface.
+
+I found the video very clear and helpful, particularly in its step-by-step explanation of how to implement the Lerp node in Unreal Engine. The examples provided were practical and easy to follow, making the technical content accessible. I appreciated the focus on real-time visual feedback, which solidified my understanding of the concept. However, I would have liked a bit more discussion on advanced applications of lerp beyond basic transitions. Overall, the tutorial was well-executed and effective for both beginners and intermediate developers.
+
+Linear Interpolation Alan Zucconi
+
+The article "Linear Interpolation" is authored by Zucconi, a game developer and educator known for his tutorials on game development and programming. His work is particularly influential within the indie game development community, where he is respected for simplifying complex mathematical and programming concepts. Zucconi’s tutorials are well-received for their clarity, and he has contributed to several popular games, including Pikuniku and Still Time. His website has become a go-to resource for developers, praised for its in-depth coverage of technical topics such as shaders and AI.
+
+Alan Zucconi’s article on linear interpolation (lerp) delves into the mathematical principles behind lerp, a critical technique in game development for smoothly transitioning between values. It explores applications such as color blending, position adjustments, and texture transitions, explaining the lerp formula and providing practical coding examples. Zucconi also offers visual demonstrations to clarify how lerp enables smooth transitions. This analysis is especially relevant for tasks involving Unreal Engine, where lerp is commonly implemented in material nodes to blend values dynamically over time.
+
+I found Zucconi’s article on linear interpolation both insightful and well-structured. I particularly appreciated his clear explanations and visual demonstrations, which made complex concepts accessible. I agree with his emphasis on lerp’s versatility in game development, as it is indeed fundamental for creating smooth transitions. However, I felt that some technical details could have been explored further, particularly regarding performance considerations in real-time applications. Overall, it’s a valuable resource for anyone looking to deepen their understanding of lerp in game design. 
+
+Linear Interpolation David L. Johnson
+
+The article "Linear Interpolation Explained" authored by David L. Johnson and published on GameDev.net, serves as a valuable resource for game developers seeking to understand the concept of linear interpolation (lerp) in programming. GameDev.net, a respected online community and knowledge base for game developers, boasts a reputation for providing high-quality tutorials and insights into game design and development. Johnson, known for his expertise in gameplay programming, presents the topic in a clear and accessible manner, making it suitable for both novice and experienced developers. The article has received positive feedback for its straightforward explanations and practical examples, enhancing its credibility in the gaming community. While the article has not garnered specific awards, its influence is evident in the way it demystifies a fundamental concept crucial for game mechanics, highlighting the importance of lerp in creating smooth animations and transitions.
+
+In analyzing the current task focused on linear interpolation (lerp) in game development, several key aspects emerge. First, it is essential to define and explain what linear interpolation is, including the mathematical principles behind it. Understanding its applications in game development is crucial, as lerp is widely used for smoothly transitioning between values such as colors, positions, and textures. The implementation of the Lerp node in Unreal Engine will be explored, providing step-by-step instructions and best practices for its use in materials. Performance considerations will also be addressed, discussing the efficiency of using lerp in real-time applications and its impact on overall game performance. Practical examples illustrating lerp in action will demonstrate how it enhances gameplay and user experience. Additionally, the analysis will cover how lerp can be controlled by parameters, allowing for dynamic value changes over time or in response to user input. A visual representation of lerp's effects in a game environment will be provided, alongside common issues and troubleshooting tips. Finally, a brief comparison with other interpolation methods, such as cubic or spline interpolation, will highlight lerp's unique advantages and limitations, while community feedback and resources will be reviewed to offer further learning opportunities.
+
+In concluding my exploration of David L. Johnson's article "Linear Interpolation Explained," I found the clear and accessible explanations particularly enjoyable, making complex concepts easier to grasp. The practical examples provided were especially helpful, as they illustrated the real-world applications of lerp in game development, which I fully agree enhances the reader's understanding. However, I would have appreciated a more in-depth discussion on potential pitfalls when implementing lerp, as awareness of common issues could further empower developers. Overall, I agree with the article's emphasis on the significance of lerp in creating smooth transitions and its impact on user experience, and I believe it serves as a solid foundation for anyone looking to implement this fundamental technique in their projects.
 
 ## Linear Interpolation Research
 
@@ -98,8 +119,8 @@ public class HelloWorld : MonoBehaviour
 Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
 
 - [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+
 - [Example Repo Link](https://github.com/githubtraining/hellogitworld)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
