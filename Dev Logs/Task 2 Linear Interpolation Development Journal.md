@@ -8,13 +8,9 @@ Sidd Ghosalkar
 
 ## Research
 
-### What sources or references have you identified as relevant to this task?
+
 
 #### Sources
-
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-- An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
 Linear Interpolation Matthew Wadstein
 
