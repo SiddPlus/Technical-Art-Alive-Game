@@ -5,6 +5,11 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/AA/BP_SpinningCube.uasset",
+				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/Blueprint/BP_SpinningCube.uasset",
+				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/AA/BP_ObjectManager.uasset",
+				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/Blueprint/BP_ObjectManager.uasset",
+				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/A/VK/4VQQ2PT7ZP3UANRSWIFMIA.uasset",
 				"C:/Users/2304613/Documents/Unreal Projects/Alive/Content/StarterContent/HDRI/HDRI_Epic_Courtyard_Daylight.uasset",
 				"C:/Users/2304613/Documents/Unreal Projects/Alive/Content/Blueprint/BP_SpinningCube.uasset",
 				"C:/Users/2304613/Documents/Unreal Projects/Alive/Content/Blueprint/BP_ObjectManager.uasset",
