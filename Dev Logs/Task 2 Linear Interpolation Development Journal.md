@@ -95,6 +95,8 @@ t = 1, the color will be blue
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/4hjjq1ls/" scrolling="no" allowfullscreen></iframe>
 
+*Link 2. A material lerping between 2 textures*
+
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
 - Did you have any issues completing the task? How did you overcome them?
@@ -127,9 +129,4 @@ Zucconi, A. (2021) Linear Interpolation. At: https://www.alanzucconi.com/2021/01
 
 Linear Interpolation Explained (s.d.) At: https://gamedev.net/tutorials/programming/general-and-gameplay-programming/linear-interpolation-explained-r5892 
 
-## Declared Assets
-
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
-
-Infinity Blade: Adversaries in Epic Content - UE Marketplace (s.d.) At: https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies (Accessed  09/09/2024).
 
