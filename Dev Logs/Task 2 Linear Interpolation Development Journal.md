@@ -85,13 +85,13 @@ t = 1, the color will be blue
 
 <br>
 
-[Color Lerping Material Blueprint] (https://blueprintue.com/blueprint/gmdicac1/)
+[Color Lerping Material Blueprint](https://blueprintue.com/blueprint/gmdicac1/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/gmdicac1/" scrolling="no" allowfullscreen></iframe>
 
 *Link 1. A material lerping between 2 colors*
 
-[Texture Lerping Material Blueprint] (https://blueprintue.com/blueprint/4hjjq1ls/)
+[Texture Lerping Material Blueprint](https://blueprintue.com/blueprint/4hjjq1ls/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/4hjjq1ls/" scrolling="no" allowfullscreen></iframe>
 
