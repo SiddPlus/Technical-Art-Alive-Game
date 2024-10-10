@@ -85,26 +85,15 @@ t = 1, the color will be blue
 
 <br>
 
-```csharp
-using UnityEngine;
-public class HelloWorld : MonoBehaviour 
-{
-    public void Start() 
-    {
-        Debug.Log("Hello World!");
-    }
-}
-```
-*Figure 1. An example of using a script as a figure. This script has a `Start()` method!*
+[Color Lerping Material Blueprint] (https://blueprintue.com/blueprint/gmdicac1/)
 
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
+<iframe width="1000" height="500" src="https://blueprintue.com/render/gmdicac1/" scrolling="no" allowfullscreen></iframe>
 
-- Did you try any new software or approaches? How did the effect development?
+*Link 1. A material lerping between 2 colors*
 
-<br>
+[Texture Lerping Material Blueprint] (https://blueprintue.com/blueprint/4hjjq1ls/)
 
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
+<iframe width="1000" height="500" src="https://blueprintue.com/render/4hjjq1ls/" scrolling="no" allowfullscreen></iframe>
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
@@ -112,19 +101,11 @@ public class HelloWorld : MonoBehaviour
 
 ## Outcome
 
-Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
-
 - [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
 
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-*Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
 
 ## Critical Reflection
 
