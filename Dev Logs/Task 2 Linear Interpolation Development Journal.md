@@ -103,11 +103,11 @@ t = 1, the color will be blue
 
 ## Outcome
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+- [Outcome Video Link](https://www.youtube.com/watch?v=stEsIGXVEMs)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/stEsIGXVEMs?si=3LR6vz71N89Jg6UG" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game)
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Critical Reflection
 
