@@ -74,8 +74,6 @@ t = 1, the color will be blue
 
 - Color Gradients: Developers often use Lerp to create color gradients in user interfaces or environmental lighting. For instance, changing the sky color from day to night by interpolating between different colors based on the time of day.
 
-![test](../Dev%20Logs/Resources/OIP.jpg)
-
 ## Implementation
 
 ### What was the process of completing the task? What influenced your decision making?
