@@ -8,7 +8,9 @@ Sidd Ghosalkar
 
 ## Research
 
+For this project, I conducted extensive research on Linear Interpolation and explored the Unreal Engine to create a more immersive experience. I prioritized studying insights from technical experts to develop my ability to learn new techniques independently and without direct guidance.
 
+Additionally, I sought valuable knowledge from practical tutorials to deepen my understanding of Linear Interpolation and ensure its proper implementation within the game.
 
 #### Sources
 
