@@ -57,17 +57,13 @@ I found their implementation and choice great for the context of their narrative
 
 <br>
 
-```csharp
-using UnityEngine;
-public class HelloWorld : MonoBehaviour 
-{
-    public void Start() 
-    {
-        Debug.Log("Hello World!");
-    }
-}
-```
-*Figure 1. An example of using a script as a figure. This script has a `Start()` method!*
+[Single Layer Water Material Blueprint](https://blueprintue.com/blueprint/tmcq9gan/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/tmcq9gan/" scrolling="no" allowfullscreen></iframe>
+
+*Link 1. A single layer water material*
+
+WORDS
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
@@ -86,17 +82,11 @@ public class HelloWorld : MonoBehaviour
 
 Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
+- [Outcome Video Link](https://www.youtube.com/watch?v=AmShFJviROE)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/AmShFJviROE?si=HHEY4uOPivo9yIui" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-*Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
 
 ## Critical Reflection
 
