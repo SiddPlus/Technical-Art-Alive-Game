@@ -80,9 +80,6 @@ t = 1, the color will be blue
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
 <br>
 
 [Color Lerping Material Blueprint](https://blueprintue.com/blueprint/gmdicac1/)
@@ -96,6 +93,8 @@ t = 1, the color will be blue
 <iframe width="1000" height="500" src="https://blueprintue.com/render/4hjjq1ls/" scrolling="no" allowfullscreen></iframe>
 
 *Link 2. A material lerping between 2 textures*
+
+I created two materials for my project. The first material transitioned smoothly between two colors, creating a dynamic visual effect. The second material, on the other hand, blended seamlessly between two textures, allowing for a more complex and textured appearance.
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
