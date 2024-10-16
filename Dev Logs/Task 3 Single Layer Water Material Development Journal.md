@@ -17,6 +17,16 @@ Sidd Ghosalkar
 - List the aspects analysed in reference to the current task.
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
+###### Single Layer Water Material Unreal Engine Documentation
+
+"Single Layer Water Shading Model" is part of the official Unreal Engine documentation provided by Epic Games. As a cornerstone in the game development industry, Epic Games is highly regarded for its contributions to real-time 3D creation, particularly through Unreal Engine, which has been widely praised for its cutting-edge graphics, advanced physics, and versatile tools. The documentation serves as an authoritative resource, offering in-depth technical explanations and implementation guidelines, directly supported by Epic Games' expertise. Unreal Engine’s documentation is well-received by developers and industry professionals for its clarity and comprehensive coverage of topics, making it a key source of information for both novice and experienced developers. However, some users have critiqued the documentation for occasionally lacking in detailed examples or troubleshooting guidance, which can pose challenges for those unfamiliar with specific tools or functions. Despite this, the documentation remains a crucial reference point for developers working with Unreal Engine.
+
+In reference to the current task of creating a single-layer water material in Unreal Engine, several key aspects are analyzed based on the official documentation. These include the handling of reflection to ensure realistic light bounce on the water surface and refraction, which simulates light bending through the water for a convincing visual effect. The task also examines surface movement, providing techniques to simulate dynamic effects like ripples and waves for enhanced realism. Additionally, light interaction is a critical aspect, focusing on how the water material handles translucency, shadow casting, and caustics to achieve natural light behavior. Performance optimization is equally important, with guidelines on creating a visually compelling material that remains efficient for real-time rendering. Finally, the effective use of Unreal Engine's Material Editor is discussed, highlighting how to implement and adjust these properties to create a realistic and performance-optimized water material.
+
+I appreciated the clarity and depth of the Unreal Engine documentation on the Single Layer Water Shading Model. It provided detailed insights into key concepts like reflection, refraction, and light interaction, which are essential for creating visually compelling water materials. I particularly enjoyed the straightforward explanations and the practical examples, which made implementing surface movement and optimizing performance much easier. However, I felt that the documentation could benefit from more troubleshooting tips or advanced use cases, as some areas lacked deeper explanations for complex scenarios. Overall, I agree with the methods and techniques outlined in the source, though I would have preferred additional guidance on addressing potential challenges developers might face during implementation.
+
+
+
 ## Implementation
 
 ### What was the process of completing the task? What influenced your decision making?
@@ -71,29 +81,4 @@ Here you can put links required for delivery of the task, ensure they are proper
 
 ## Bibliography
 
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
-
-Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/index.php?title=Video_game_development&oldid=1240603537 (Accessed  03/09/2024).
-
-## Declared Assets
-
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
-
-Infinity Blade: Adversaries in Epic Content - UE Marketplace (s.d.) At: https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies (Accessed  09/09/2024).
-
----
-
-```Markdown
-# General Tips
-
-- Use plenty of images and videos to demonstrate your point. You can embed YouTube tutorials, your own recordings, etc.
-- Always reference! Even documentation, tutorials and anything you used for your assignment. Use an inline reference for the sentence and a bibliography reference at the end.
-- Word count is not important, you can also chose to use bullet points. As long as it is clear and readable, the format your decide to use can be flexible.
-- You are free to use AI but please ensure you have made a note in the declared assets, for example if you have a script called Test.cs , you should note that AI was used to in the creation of this script. You can use a bullet point list for each asset used like:
-
-The following assets were created or modified with the use of GPT 4o:
-- Test.cs
-- AnotherScript.cs
-- Development Journal.html
-
-```
+Single Layer Water Shading Model in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/single-layer-water-shading-model-in-unreal-engine 
