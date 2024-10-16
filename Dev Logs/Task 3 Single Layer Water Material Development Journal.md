@@ -31,9 +31,6 @@ I appreciated the clarity and depth of the Unreal Engine documentation on the Si
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
 <br>
 
 [Single Layer Water Material Blueprint](https://blueprintue.com/blueprint/tmcq9gan/)
@@ -42,7 +39,7 @@ I appreciated the clarity and depth of the Unreal Engine documentation on the Si
 
 *Link 1. A single layer water material*
 
-WORDS
+I created a single-layer water material that allows light to refract, reflect, and remain transparent. Additionally, I incorporated panning normals to simulate the movement of the water surface, creating a realistic ripple effect.
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
