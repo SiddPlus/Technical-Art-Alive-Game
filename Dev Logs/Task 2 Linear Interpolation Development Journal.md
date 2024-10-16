@@ -14,7 +14,7 @@ Additionally, I sought valuable knowledge from practical tutorials to deepen my 
 
 #### Sources
 
-Linear Interpolation Matthew Wadstein
+###### Linear Interpolation Matthew Wadstein
 
 The video titled "WTF Is? Material - Linear Interpolate in Unreal Engine 4" from the YouTube channel of Matthew Wadstein, a well-known developer and educator in the game development community, particularly for Unreal Engine 4 (UE4). Wadstein's "WTF Is?" series breaks down complex Unreal Engine concepts into accessible, short tutorials. His work has gained recognition within the game development community due to its practicality and clarity, with the channel serving as a go-to resource for beginners and advanced users alike. While Wadstein's tutorials are widely praised for their educational value, they are considered most useful when supplemented by hands-on practice.
 
@@ -22,7 +22,7 @@ In the video, Matthew Wadstein covers the fundamental aspects of using linear in
 
 I found the video very clear and helpful, particularly in its step-by-step explanation of how to implement the Lerp node in Unreal Engine. The examples provided were practical and easy to follow, making the technical content accessible. I appreciated the focus on real-time visual feedback, which solidified my understanding of the concept. However, I would have liked a bit more discussion on advanced applications of lerp beyond basic transitions. Overall, the tutorial was well-executed and effective for both beginners and intermediate developers.
 
-Linear Interpolation Alan Zucconi
+###### Linear Interpolation Alan Zucconi
 
 The article "Linear Interpolation" is authored by Zucconi, a game developer and educator known for his tutorials on game development and programming. His work is particularly influential within the indie game development community, where he is respected for simplifying complex mathematical and programming concepts. Zucconi’s tutorials are well-received for their clarity, and he has contributed to several popular games, including Pikuniku and Still Time. His website has become a go-to resource for developers, praised for its in-depth coverage of technical topics such as shaders and AI.
 
@@ -30,7 +30,7 @@ Alan Zucconi’s article on linear interpolation (lerp) delves into the mathemat
 
 I found Zucconi’s article on linear interpolation both insightful and well-structured. I particularly appreciated his clear explanations and visual demonstrations, which made complex concepts accessible. I agree with his emphasis on lerp’s versatility in game development, as it is indeed fundamental for creating smooth transitions. However, I felt that some technical details could have been explored further, particularly regarding performance considerations in real-time applications. Overall, it’s a valuable resource for anyone looking to deepen their understanding of lerp in game design. 
 
-Linear Interpolation David L. Johnson
+###### Linear Interpolation David L. Johnson
 
 The article "Linear Interpolation Explained" authored by David L. Johnson and published on GameDev.net, serves as a valuable resource for game developers seeking to understand the concept of linear interpolation (lerp) in programming. GameDev.net, a respected online community and knowledge base for game developers, boasts a reputation for providing high-quality tutorials and insights into game design and development. Johnson, known for his expertise in gameplay programming, presents the topic in a clear and accessible manner, making it suitable for both novice and experienced developers. The article has received positive feedback for its straightforward explanations and practical examples, enhancing its credibility in the gaming community. While the article has not garnered specific awards, its influence is evident in the way it demystifies a fundamental concept crucial for game mechanics, highlighting the importance of lerp in creating smooth animations and transitions.
 

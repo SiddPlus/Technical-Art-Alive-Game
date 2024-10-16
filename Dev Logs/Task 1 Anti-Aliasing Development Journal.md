@@ -14,7 +14,7 @@ Additionally, I sought insights from technical experts to deepen my understandin
 
 #### Sources
 
-Anti-Aliasing Unreal Engine Documentation
+###### Anti-Aliasing Unreal Engine Documentation
 
 "Anti-Aliasing and Upscaling in Unreal Engine" is part of the official Unreal Engine documentation provided by Epic Games, a leader in game development technology. Epic Games, known for creating the Unreal Engine, is renowned for its robust tools used in game design, film production, and interactive experiences. The Unreal Engine has received critical acclaim for its high-fidelity graphics and user-friendly interface, making it a standard in the industry. The documentation offers in-depth technical guidance and insights to developers of all levels. 
 
@@ -23,7 +23,7 @@ The different anti-aliasing techniques like Temporal Anti-Aliasing (TAA), Fast A
 In conclusion, I found the discussion on anti-aliasing and upscaling techniques in Unreal Engine to be insightful, particularly in how various methods, such as Temporal Anti-Aliasing (TAA) and DLSS, enhance visual fidelity. The emphasis on achieving a balance between performance and visual fidelity was well articulated. However, I believe a more in-depth exploration of how different hardware configurations impact these techniques would have enhanced the discussion. Overall, it offers valuable insight for optimizing game visuals while maintaining performance efficiency.
 
 
-Anti-Aliasing SpringerLink
+###### Anti-Aliasing SpringerLink
 
 "Delving Deeper into Anti-Aliasing in ConvNets" is a scientific article published in the International Journal of Computer Vision, a peer-reviewed journal known for its influential work in the fields of computer vision and image processing. The article is authored by prominent researchers, which lends it credibility in the academic community. The journal itself has a strong reputation for high-quality publications, often cited in major studies and technical advancements. However, like all academic work, the article may face scrutiny in terms of reproducibility.
 
@@ -32,7 +32,7 @@ The various anti-aliasing techniques, such as MSAA, FXAA, and TAA, they effects 
 I found the article insightful, particularly in its exploration of advanced anti-aliasing techniques for convolutional neural networks. The thorough examination of current methods and the suggested improvements were particularly commendable. However, I felt that certain aspects, especially practical applications, could have been explored in greater detail. While I agree with the need for refined methods in image analysis, I believe more emphasis on real-world implementation would have strengthened the overall argument. Overall, the article provided valuable insights into a critical aspect of computer vision.
 
 
-Anti-Aliasing Digital Foundry
+###### Anti-Aliasing Digital Foundry
 
 The video titled "Anti-Aliasing - What Is It And Why Do We Need It?" is produced by Digital Foundry, a popular YouTube channel dedicated to explaining complex technology topics in simple terms. The channel has gained a reputation for its clear, concise explanations and has been well-received by both tech enthusiasts and beginners alike. The video explores anti-aliasing, a technique in digital graphics, and has garnered attention for its accessible approach. Digital Foundry is known for credible content in tech education, though some advanced users may find the material overly simplified.
 
