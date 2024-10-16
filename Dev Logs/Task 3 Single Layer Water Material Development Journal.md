@@ -87,3 +87,5 @@ Here you can put links required for delivery of the task, ensure they are proper
 ## Bibliography
 
 Single Layer Water Shading Model in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/single-layer-water-shading-model-in-unreal-engine 
+
+UE4 Tutorial: How Make Water Material in ‘Starter Content’ Work Without Stretching or Distortions (s.d.) At: https://www.worldofleveldesign.com/categories/ue4/materials-starter-content-water-instance.php
