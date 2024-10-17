@@ -36,7 +36,6 @@ Horizon Forbidden West, developed by Guerrilla Games and published by Sony Inter
 
 In reference to Horizon Forbidden West, several aspects can be analyzed to inform the creation of a single-layer water material in Unreal Engine. The game is renowned for its realistic water rendering, including reflections, refractions, and surface movement, which serve as valuable inspiration for crafting visually convincing water materials. The dynamic surface movement and fluid interactions in the game offer insight into replicating natural wave patterns and water flow in Unreal Engine. Additionally, Horizon Forbidden West excels in how light interacts with water, utilizing advanced techniques for reflections and refractions that can enhance the realism of light-water interaction in this task. Guerrilla Games also managed to deliver high-quality visuals while maintaining optimized performance, providing useful examples of how to balance visual fidelity and system efficiency, such as through shader optimizations. Finally, the game’s seamless integration of water into its broader environment highlights best practices for ensuring the water material blends well with surrounding elements, enhancing the overall immersion.
 
-
 Overall, I greatly enjoyed Horizon Forbidden West for its stunning visuals, particularly the water rendering, which felt incredibly immersive and lifelike. The attention to detail in how the game simulates natural environments, including the interaction between light and water, is impressive and something I found inspiring for my own work. However, I did notice that the game experienced some technical issues at launch, which affected performance and immersion—an aspect I didn't fully agree with, given the expectations for a AAA title. Despite this, I agree with the majority of the critical acclaim the game received, especially in terms of its artistic direction and technical achievements. The balance between visual fidelity and performance optimization is something I appreciated and will keep in mind as I work on similar tasks in Unreal Engine.
 
 ## Implementation
@@ -59,16 +58,11 @@ I created a single-layer water material that allows light to refract, reflect, a
 
 <br>
 
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
-
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
 - Did you have any issues completing the task? How did you overcome them?
 
 ## Outcome
-
-Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
 
 - [Outcome Video Link](https://www.youtube.com/watch?v=AmShFJviROE)
 
