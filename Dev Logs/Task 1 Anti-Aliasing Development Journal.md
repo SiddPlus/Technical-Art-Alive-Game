@@ -135,9 +135,6 @@ I applied four different anti-aliasing methods while spawning spinning objects, 
 I used Markdown for the first time to write this development log. Overall, writing in Markdown went well; however, I initially struggled with embedding videos and images, as well as HTML, which slowed down the documentation process. On the other hand, I also used Zotero for the first time to manage my references. Utilizing Zotero significantly streamlined the referencing process, making it quicker and more efficient.
 <br>
 
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
-
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
 I encountered difficulties embedding videos, images, and HTML in Markdown while working on this dev log. To resolve these issues, I turned to Google for solutions and also sought assistance from my lecturer.
