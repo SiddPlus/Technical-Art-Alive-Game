@@ -112,13 +112,13 @@ I created two materials for my project. The first material transitioned smoothly
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+I struggled with conducting research as I couldn't find reliable sources for my task. To solve this problem, I turned to ChatGPT for assistance, which helped me gather the necessary sources for my research.
+
+The implementation of lerping between colors and textures was successful. The process allowed for smooth transitions, and the results met my expectations. 
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+Instead of solely focusing on color and texture, we should have explored different applications of lerping. By broadening our approach, we could have uncovered more dynamic uses, potentially enhancing various aspects of the project beyond just visual transitions.
 
 ## Bibliography
 
@@ -128,4 +128,7 @@ Zucconi, A. (2021) Linear Interpolation. At: https://www.alanzucconi.com/2021/01
 
 Linear Interpolation Explained (s.d.) At: https://gamedev.net/tutorials/programming/general-and-gameplay-programming/linear-interpolation-explained-r5892 
 
+## Declared Assets
+
+ChatGPT (s.d.) At: https://chatgpt.com
 
