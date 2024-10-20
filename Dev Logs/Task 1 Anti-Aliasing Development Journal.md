@@ -151,9 +151,6 @@ I encountered difficulties embedding videos, images, and HTML in Markdown while 
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
-
 Getting used to Markdown initially presented a challenge for me. As I spent more time working with it, I gradually became more comfortable navigating its syntax and features. While I appreciate the brief simplicity, I found that it lacks sufficient programming elements to fully satisfy my desire for more programming involvement. I would prefer the brief to offer a deeper level of programming capabilities.
 
 On the research front, I was pleased with the progress I made. The implementation of Anti-Aliasing, in particular, turned out very well. By carefully following the brief, I was able to enhance the visual quality of my project significantly. As I could see a marked improvement in the smoothness of edges and overall graphics quality.
