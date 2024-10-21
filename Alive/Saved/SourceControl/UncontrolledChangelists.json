@@ -5,6 +5,13 @@
 			"guid": "00000000000000000000000000000000",
 			"description": "Default Uncontrolled Changelist",
 			"files": [
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/FPE/NS_Fire.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/__ExternalActors__/ThirdPerson/Maps/ThirdPersonMap/8/XA/400WEVVZGXTFLM1JSD7WMV.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/StarterContent/Particles/Materials/M_Fire_SubUV.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/StarterContent/Particles/Materials/M_smoke_subUV.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/StarterContent/Particles/Materials/M_Heat_Distortion.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/Systems/BPC_AttackSystem.uasset",
+				"C:/Users/2304613/Documents/GitHub/Technical-Art-Alive-Game/Alive/Content/Animations/Attacks/Kick_Montage.uasset",
 				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/AA/Blueprint/BP_SpinningCube.uasset",
 				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/AA/Blueprint/BP_ObjectManager.uasset",
 				"C:/Portfolio/UCA/Technical Art/Technical-Art-Alive-Game/Alive/Content/LI/M_Lerp1.uasset",
