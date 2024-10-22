@@ -52,16 +52,6 @@ Overall, I greatly enjoyed Horizon Forbidden West for its stunning visuals, part
 
 I created a single-layer water material that allows light to refract, reflect, and remain transparent. Additionally, I incorporated panning normals to simulate the movement of the water surface, creating a realistic ripple effect.
 
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-
-- Did you try any new software or approaches? How did the effect development?
-
-<br>
-
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
-
 ## Outcome
 
 - [Outcome Video Link](https://www.youtube.com/watch?v=AmShFJviROE)
