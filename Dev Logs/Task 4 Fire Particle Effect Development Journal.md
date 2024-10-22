@@ -52,51 +52,23 @@ I found their implementation and choice great for the context of their narrative
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
 <br>
 
-```csharp
-using UnityEngine;
-public class HelloWorld : MonoBehaviour 
-{
-    public void Start() 
-    {
-        Debug.Log("Hello World!");
-    }
-}
-```
-*Figure 1. An example of using a script as a figure. This script has a `Start()` method!*
+[Fire Particle Effect](https://blueprintue.com/blueprint/44ikf52n/)
 
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
+<iframe width="1000" height="500" src="https://blueprintue.com/render/44ikf52n/" scrolling="no" allowfullscreen></iframe>
 
-- Did you try any new software or approaches? How did the effect development?
+*A Fire Particle Effect*
 
-<br>
-
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
-
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
+I created a fire particle effect that included flames, smoke, embers, and heat distortion. I also made it glow and illuminate the surrounding area. To achieve a more realistic fire movement, I carefully edited the emitters' properties, fine-tuning various settings to simulate the behavior of real fire.
 
 ## Outcome
 
-Here you can put links required for delivery of the task, ensure they are properly labelled appropriately and the links function. The required components can vary between tasks, you can find a definative list in the Assessment Information. Images and code snippets can be embedded and annotated if appropriate.
+- [Outcome Video Link](https://youtu.be/1LL87OxmXbg)
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/1LL87OxmXbg?si=o4PWx81vWEGzJeeS" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-*Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
 
 ## Critical Reflection
 
@@ -118,23 +90,5 @@ Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/inde
 
 ## Declared Assets
 
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
 
-Infinity Blade: Adversaries in Epic Content - UE Marketplace (s.d.) At: https://www.unrealengine.com/marketplace/en-US/product/infinity-blade-enemies (Accessed  09/09/2024).
 
----
-
-```Markdown
-# General Tips
-
-- Use plenty of images and videos to demonstrate your point. You can embed YouTube tutorials, your own recordings, etc.
-- Always reference! Even documentation, tutorials and anything you used for your assignment. Use an inline reference for the sentence and a bibliography reference at the end.
-- Word count is not important, you can also chose to use bullet points. As long as it is clear and readable, the format your decide to use can be flexible.
-- You are free to use AI but please ensure you have made a note in the declared assets, for example if you have a script called Test.cs , you should note that AI was used to in the creation of this script. You can use a bullet point list for each asset used like:
-
-The following assets were created or modified with the use of GPT 4o:
-- Test.cs
-- AnotherScript.cs
-- Development Journal.html
-
-```
