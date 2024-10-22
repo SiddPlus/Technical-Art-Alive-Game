@@ -96,10 +96,6 @@ t = 1, the color will be blue
 
 I created two materials for my project. The first material transitioned smoothly between two colors, creating a dynamic visual effect. The second material, on the other hand, blended seamlessly between two textures, allowing for a more complex and textured appearance.
 
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
-
 ## Outcome
 
 - [Outcome Video Link](https://www.youtube.com/watch?v=stEsIGXVEMs)
