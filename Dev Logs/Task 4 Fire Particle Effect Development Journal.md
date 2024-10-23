@@ -1,26 +1,15 @@
-# [TASK NAME]
+# Fire Particle Effect
 
-[Module Name]
+Technical Art
 
-[Student Name]
+Sidd Ghosalkar
 
-[Student ID]
+2304613
 
 ## Research
 
-### What sources or references have you identified as relevant to this task?
-
 - What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
 - What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
-
-
-```Markdown
-# Example
-
-As I have done research regarding the audio identity and developing audio assets for this project in previous formative assignments. I wanted to look into specific Unreal and Wwise systems that will help create a more immersive experience. I wanted to focus on official documentation to improve my ability to learn new techniques without explicit instructions.
-
-I also wanted a creative source to help develop the parachute audio assets and learn how it should function within the game’s narrative.
-```
 
 #### Sources
 
@@ -28,25 +17,13 @@ I also wanted a creative source to help develop the parachute audio assets and l
 - List the aspects analysed in reference to the current task.
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
-```Markdown
-# Example Documentation
+###### Fire Particle Effect Unreal Engine Tutorial
 
-I wanted to create an emitter which takes advantage of spread and focus, which was a technique I learned from a previous assignment where the spatialisation of an object changes depending on distance. I also wanted to work specifically with a `Spline Component` to encapsulate the entire ship with an “Ocean Emitter”. This led me to read the Unreal Blueprints API References and Wwise 3D Positioning documentation (Unreal Engine Blueprint API Reference | Unreal Engine 5.4 Documentation | Epic Developer Community, s.d., AudioKinetic Inc, s.d.).
+"Unreal Particle Effects Tutorial", published by Epic Games on their official Unreal Engine learning platform, the source provides a comprehensive guide to creating and utilizing particle effects within the Unreal Engine. Epic Games, the developer of Unreal Engine, is widely regarded as a leader in the gaming and development industry. Their engine has powered numerous critically acclaimed games, including Fortnite and Gears of War, and has set industry standards for visual fidelity and real-time rendering. The tutorial benefits from Epic's authoritative voice and deep expertise in game development tools, ensuring that users can trust the content’s accuracy and relevance. Unreal Engine itself has won several awards for innovation and is widely adopted in game design, film production, and beyond. While the tutorial does not seem to have any notable issues, as with many technical guides, users may encounter challenges depending on their prior experience with the engine and particle systems. Nonetheless, this tutorial remains a valuable resource for beginners and professionals alike.
 
-I found a Blueprint node called “Find Location Closest to World Location" which returns a `Vector3` on the spline position closest to another `Vector3`, I believe this can help move the emitter towards the player(Finding time of given results from (Find Location Closest to World Location) from Splines - Programming & Scripting / Blueprint, 2023).
+In reference to the current task of designing and implementing a realistic fire particle effect using Unreal Engine's Niagara or Cascade particle system, the Unreal Particle Effects Tutorial from Epic Games provides key insights into several aspects critical to achieving this goal. The tutorial explores the fundamental components of particle systems, such as emitters, materials, and behaviors, all of which are essential for creating dynamic fire effects. It also covers key parameters like particle lifetime, size, and color, which are important for simulating the flickering and fading nature of fire. Additionally, the tutorial delves into optimizing performance, an important consideration when implementing particle effects in a real-time interactive environment. Special attention is given to lighting and environmental interactions, which help enhance the realism of fire effects. These aspects will guide the development process, from basic design to more advanced techniques, ensuring the final fire particle effect is visually appealing and suitable for gameplay contexts.
 
-I found the Unreal documentation clear and easy to navigate, however it was much harder to find specific nodes unless you are familiar with the naming conventions used by Unreal, such as “World Location” and the API documentation is separated from the property references. The Wwise documentation on the other hand is much easier to navigate as they have core topics such as “Using Sounds and Motion to Enhance Gameplay” and examples of how they can be applied, which the unreal documentation lacked. 
-
-# Example Game Source
-
-Just Cause 3 is an action-adventure game developed by Avalanche Studios, it features a mechanic where the player can navigate the open world with the use of a parachute and a wingsuit(Just Cause 3, 2015).
-
-The wind becomes more prominent in the mix and its volume and speed is based on the player's velocity when using the wingsuit or parachute. It is not too overwhelming during action sequences to ensure audio responses can be clearly heard.
-
-I found their implementation and choice great for the context of their narrative and game mechanics. However, for the sequences featured in the assignment, it is more “cinematic” allowing for a different approach for the mix and can be “exaggerated” to drive its narrative function.
-
-
-```
+I found the Unreal Particle Effects Tutorial by Epic Games to be an enjoyable and insightful resource, especially for understanding the fundamentals of particle systems. I appreciated how the tutorial was well-structured and accessible, providing clear instructions that are easy to follow, even for users who are relatively new to the engine. The emphasis on flexibility, allowing creators to choose between Niagara and Cascade, was another aspect I agreed with, as it caters to different skill levels and project needs. However, I would have liked more detailed examples or real-world applications for complex effects, as the tutorial primarily focused on the basics. While I agreed with the importance of optimizing particle systems for performance, I felt that some sections could have expanded further on advanced techniques to achieve greater realism. Overall, the tutorial was effective, but more in-depth exploration would enhance its usefulness for those seeking to push particle effects to a higher level.
 
 ## Implementation
 
@@ -84,11 +61,10 @@ I created a fire particle effect that included flames, smoke, embers, and heat d
 
 ## Bibliography
 
-- Please use the [harvard referencing convention](https://mylibrary.uca.ac.uk/referencing).
-
-Video game development (2024) In: Wikipedia. At: https://en.wikipedia.org/w/index.php?title=Video_game_development&oldid=1240603537 (Accessed  03/09/2024).
+Unreal Particle Effects Tutorial | Community tutorial (2023) At: https://dev.epicgames.com/community/learning/tutorials/b8yy/unreal-engine-unreal-particle-effects-tutorial 
 
 ## Declared Assets
+ChatGPT (s.d.) At: https://chatgpt.com
 
 
 
