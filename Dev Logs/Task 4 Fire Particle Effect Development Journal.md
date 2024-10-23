@@ -25,6 +25,16 @@ In reference to the current task of designing and implementing a realistic fire 
 
 I found the Unreal Particle Effects Tutorial by Epic Games to be an enjoyable and insightful resource, especially for understanding the fundamentals of particle systems. I appreciated how the tutorial was well-structured and accessible, providing clear instructions that are easy to follow, even for users who are relatively new to the engine. The emphasis on flexibility, allowing creators to choose between Niagara and Cascade, was another aspect I agreed with, as it caters to different skill levels and project needs. However, I would have liked more detailed examples or real-world applications for complex effects, as the tutorial primarily focused on the basics. While I agreed with the importance of optimizing particle systems for performance, I felt that some sections could have expanded further on advanced techniques to achieve greater realism. Overall, the tutorial was effective, but more in-depth exploration would enhance its usefulness for those seeking to push particle effects to a higher level.
 
+[]
+
+###### Fire Particle Effect in Final Fantasy VII Remake
+
+Final Fantasy VII Remake, developed by Square Enix, is a modern reimagining of the iconic 1997 role-playing game (RPG) Final Fantasy VII. Square Enix, a globally recognized developer and publisher, is known for its critically acclaimed Final Fantasy series, which has had a profound influence on the RPG genre. Final Fantasy VII Remake was highly anticipated due to the original's cultural impact and groundbreaking storytelling. Upon its release in 2020, the remake received widespread critical acclaim for its stunning visuals, engaging combat system, and expanded narrative that deepened the characters and world of Midgar. However, the game did face some criticism regarding its episodic format, with fans divided over the decision to release the story in parts. Despite this, Final Fantasy VII Remake earned numerous awards, including Best RPG at The Game Awards 2020, solidifying its place as one of the most successful modern adaptations of a classic title. Square Enix's reputation, combined with the game's overall success, outweighs any minor issues it faced during development or release.
+
+In analyzing Final Fantasy VII Remake in relation to designing and implementing a fire particle effect in Unreal Engine, several key aspects come into focus. First, the game’s visually stunning environments and realistic effects, particularly in its combat sequences, offer inspiration for achieving lifelike fire effects. The use of dynamic lighting, particle systems, and shaders in Final Fantasy VII Remake creates immersive atmospheres, showcasing how effective fire, smoke, and energy effects can enhance the player's experience. Additionally, the fluidity and interaction of particles with the environment in the game highlight the importance of realism in particle effects, an element that will be critical when utilizing Unreal Engine's Niagara or Cascade systems. By examining how Final Fantasy VII Remake integrates its visual effects into gameplay and storytelling, one can gain insight into balancing technical detail with artistic direction, ensuring that the fire effect is both visually striking and functional within a game or interactive environment.
+
+Overall, I thoroughly enjoyed Final Fantasy VII Remake, particularly its attention to detail in both narrative and visual design. The reimagined characters and expanded storyline added depth to the original, making the experience feel fresh while still honoring the source material. The dynamic combat system and stunning particle effects, such as fire and energy elements, were especially impressive and enhanced the overall immersion. However, I was less enthusiastic about the episodic structure of the game, as it felt incomplete without the full story. While I understand the decision to expand and elaborate on the original content, I personally would have preferred a single, cohesive release. Despite this, I agree with the critical acclaim it received for its visual achievements and its ability to modernize a beloved classic.
+
 ## Implementation
 
 ### What was the process of completing the task? What influenced your decision making?
@@ -62,6 +72,10 @@ I created a fire particle effect that included flames, smoke, embers, and heat d
 ## Bibliography
 
 Unreal Particle Effects Tutorial | Community tutorial (2023) At: https://dev.epicgames.com/community/learning/tutorials/b8yy/unreal-engine-unreal-particle-effects-tutorial 
+
+[]
+
+Final Fantasy VII Remake PS4 (2020) Developed by Creative Business Unit I and published by Square Enix
 
 ## Declared Assets
 ChatGPT (s.d.) At: https://chatgpt.com
