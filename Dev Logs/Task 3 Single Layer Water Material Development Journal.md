@@ -79,3 +79,7 @@ Single Layer Water Shading Model in Unreal Engine | Unreal Engine 5.5 Documentat
 UE4 Tutorial: How Make Water Material in ‘Starter Content’ Work Without Stretching or Distortions (s.d.) At: https://www.worldofleveldesign.com/categories/ue4/materials-starter-content-water-instance.php
 
 Horizon Forbidden West PS4/PS5 (2022) Developed by Guerrilla Games and published by Sony Interactive Entertainment (SIE)
+
+## Declared Assets
+
+ChatGPT (s.d.) At: https://chatgpt.com
