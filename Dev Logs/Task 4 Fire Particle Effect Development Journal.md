@@ -25,7 +25,13 @@ In reference to the current task of designing and implementing a realistic fire 
 
 I found the Unreal Particle Effects Tutorial by Epic Games to be an enjoyable and insightful resource, especially for understanding the fundamentals of particle systems. I appreciated how the tutorial was well-structured and accessible, providing clear instructions that are easy to follow, even for users who are relatively new to the engine. The emphasis on flexibility, allowing creators to choose between Niagara and Cascade, was another aspect I agreed with, as it caters to different skill levels and project needs. However, I would have liked more detailed examples or real-world applications for complex effects, as the tutorial primarily focused on the basics. While I agreed with the importance of optimizing particle systems for performance, I felt that some sections could have expanded further on advanced techniques to achieve greater realism. Overall, the tutorial was effective, but more in-depth exploration would enhance its usefulness for those seeking to push particle effects to a higher level.
 
-[]
+###### Fire Particle Effect Motion Dreams
+
+The video titled "Fire Simulation FX in Unreal Engine Niagara" was created by UNF Games, a developer specializing in tutorials for Unreal Engine's visual effects system, Niagara. Known for concise and practical guides, UNF Games has built a reputation for helping developers implement complex visual effects efficiently. While their content has garnered positive reception for clarity and accessibility, it is primarily aimed at beginner to intermediate users of Unreal Engine. Despite their credibility within the niche, their lack of extensive industry recognition limits wider influence.
+
+In this analysis, key aspects of the video relevant to the current task are explored. The video breaks down step-by-step methods for creating a fire particle effect, focusing on system settings, emitters, and rendering techniques. It provides insights on configuring the particle system for realism, such as adjusting velocity, lifetime, and particle size. Additionally, the video demonstrates how to add smoke and embers, emphasizing both the visual appeal and performance optimization for game environments.
+
+I enjoyed the practical and concise approach of the video, which made implementing the fire particle effect using Niagara straightforward. The step-by-step breakdown and visual demonstrations were clear and helpful, especially for someone aiming to create a game-ready effect. However, I found that certain advanced aspects, like optimizing the effect for performance in larger environments, could have been discussed in more detail. Overall, I agree with the techniques and methods showcased, but the lack of deeper technical insight might limit its usefulness for advanced users.
 
 ###### Fire Particle Effect in Final Fantasy VII Remake
 
@@ -73,7 +79,7 @@ I created a fire particle effect that included flames, smoke, embers, and heat d
 
 Unreal Particle Effects Tutorial | Community tutorial (2023) At: https://dev.epicgames.com/community/learning/tutorials/b8yy/unreal-engine-unreal-particle-effects-tutorial 
 
-[]
+Fire Simulation FX in Unreal Engine Niagara | in 12 minutes (2023) At: https://www.youtube.com/watch?v=q8avHL7syC4
 
 Final Fantasy VII Remake PS4 (2020) Developed by Creative Business Unit I and published by Square Enix
 
