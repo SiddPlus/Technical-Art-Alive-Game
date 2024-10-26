@@ -67,10 +67,13 @@ I created a fire particle effect that included flames, smoke, embers, and heat d
 - What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
 - What did you think went very well? Were there any specific aspects you thought were very good?
 
+When I created the fire particle effect, I initially encountered an issue where the flames were facing downwards instead of rising upwards as intended. To resolve this, I adjusted the settings by turning off the gravity component within the particle system. Disabling gravity allowed the particles to move in the correct direction, achieving a more natural and realistic flame effect. This small adjustment made a significant difference in the final look of the effect. I would prefer if this task included more programming elements. While it allowed for creativity in other areas, a greater focus on coding would have made the experience more engaging and challenging. Incorporating programming would have provided opportunities to solve technical problems directly and deepen my understanding of the underlying mechanics, ultimately making the task more rewarding and aligned with my interests.
+
+The creation of the fire particle effect went well, and I’m pleased with the results. I was able to achieve a realistic flame effect that aligned with my initial vision and the task's requirements. The process allowed me to experiment with various settings to fine-tune the look and behavior of the particles, leading to a dynamic and visually appealing outcome. Overall, it was a successful implementation that added depth to the project.
+
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+I would implement the fire particle effect using Unreal Engine 5's Cascade system instead of the Niagara system to gain experience with both particle systems. While Niagara offers advanced control and customization, exploring Cascade would provide valuable insights into the foundational approach to particle effects in Unreal Engine. Working with both systems would deepen my understanding of their unique capabilities and limitations, helping me make informed choices about which tool to use in future projects.
 
 ## Bibliography
 
