@@ -64,13 +64,13 @@ I created a single-layer water material that allows light to refract, reflect, a
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+I wanted the task to be more programming-focused. While I enjoyed certain aspects, I felt that the lack of hands-on coding limited the depth of my engagement. I prefer projects that allow me to dive into the technical details and apply programming knowledge directly, as it offers a stronger sense of achievement and skill development.
+
+The creation of the single layer water material went well, and I’m pleased with the overall outcome. The process allowed me to explore different techniques and refine my approach, which enhanced the final result. I was able to implement ideas effectively and meet the objectives which was set for me, resulting in a piece that aligns closely with my vision and the task.
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+Next time, I would like to add waves to my single-layer water material to create a more dynamic and realistic effect. Experimenting with wave effects could enhance the material's visual depth and add complexity to its appearance. Additionally, I want to explore a different approach to creating the single-layer water material, which might lead to new insights and improvements in the design process. This adjustment would allow me to push the boundaries of my current skills and potentially achieve even more refined results.
 
 ## Bibliography
 
