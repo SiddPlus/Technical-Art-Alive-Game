@@ -42,7 +42,7 @@ Sidd Ghosalkar
 ## Outcome
 
 - [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
-- [Example Repo Link](https://github.com/githubtraining/hellogitworld)
+- [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
 - [Example Build Link](https://samperson.itch.io/desktop-goose)
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
