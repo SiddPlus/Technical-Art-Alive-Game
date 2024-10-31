@@ -23,14 +23,13 @@ Sidd Ghosalkar
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
-<br>
+I created an actor to set up a physics-based door mechanism. I started by adding two static meshes: one for the door and the other for the door frame, establishing the visual elements. Next, I added box collisions to both the door and door frame, enabling interaction when the player collides with the door. I then configured a physics constraint, setting its Z rotation to -90 to control the door’s rotational axis. I named the constraint component door and adjusted its swing and twist motions—Swing Motion 1 was set to Limited, Swing Motion 2 to Locked, and Twist Motion to Locked. I also set the swing limit to 90 degrees and chose Twist and Swing as the angular drive mode. For the target orientation, I set the Y-axis to 90 degrees and enabled both twist and swing drives. These settings allow the door to open when the player collides with it, then swing back and forth before gradually coming to a stop, creating a realistic, interactive experience.
 
 ## Outcome
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+- [Outcome Video Link](https://www.youtube.com/watch?v=qQ6ekMlRhmA)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qQ6ekMlRhmA?si=RtQp6bkf7GlOcUGV" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
 
