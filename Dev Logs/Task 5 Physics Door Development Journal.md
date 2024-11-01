@@ -37,17 +37,13 @@ I created an actor to set up a physics-based door mechanism. I started by adding
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
-
 I encountered significant difficulty in locating relevant sources for the task. Despite my efforts to search through various websites and videos, the material I found was either limited in scope or not directly applicable. Consequently, I had to adapt my approach by broadening my search criteria and seeking alternative perspectives, though it remained a time-consuming process. I would have preferred if this task included a programming component. Incorporating programming would have made the project more engaging and allowed me to apply technical skills in a practical context, making the experience more rewarding. Additionally, programming could have introduced new learning opportunities, particularly through problem-solving and coding challenges, which would have deepened my understanding of the topic. Without it, the task feels somewhat limited, and I miss the chance to work directly with code as part of the process.
 
 The implementation of the physics-based door was successful.Each stage progressed smoothly, resulting in a door mechanism that functions as intended within the environment. I was able to accurately incorporate the necessary physics interactions, ensuring that the door responds realistically to player actions and environmental forces. This aspect of the project allowed me to apply and refine my knowledge of physics principles in game development, and I'm pleased with how effectively the door enhances the interactive experience.
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+Another approach to this setup would be to program the door's physics directly, rather than using a physics constraint on the actor. By scripting the door’s movements, I could achieve more control over its interactions, such as fine-tuning its swing speed, dampening effects, and response time based on the player’s actions. This method would allow for customization in how the door responds to forces, enabling specific behaviors like adjusting the swing arc or controlling how quickly the door slows down. Programming the physics would also provide more flexibility for adding unique interactions or conditions, ultimately allowing for a more tailored and precise outcome.
 
 ## Bibliography
 
