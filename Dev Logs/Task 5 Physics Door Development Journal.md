@@ -17,7 +17,13 @@ Sidd Ghosalkar
 - List the aspects analysed in reference to the current task.
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
+###### Physics Constraint Component Unreal Engine User Guide
 
+"Physics Constraint Component User Guide" by Epic Games, a leading developer and publisher, offers a comprehensive resource on using the Physics Constraint Component within Unreal Engine. Known for producing high-quality developer tools and Unreal Engine's high regard in the game development industry, Epic Games provides this guide to enhance the understanding of physics constraints for both new and experienced users. Epic Games documentation is widely recognized for its clarity and depth, helping users leverage Unreal Engine's capabilities effectively and is frequently referenced in game development circles for best practices and technical insights.
+
+The reference provides key insights for designing a responsive, physics-driven door. It covers configuring movement limits, damping, and stiffness to control how the door swings and responds to force. It also addresses proper attachment to ensure realistic interaction with the door frame, setting rotation axes for natural movement, and enabling the door to react to player input or other physical objects. These components are essential for creating a door that behaves naturally within Unreal Engine’s physics system.
+
+I found the guide valuable for its structured approach to configuring physics constraints, which was both clear and effective. The emphasis on practical application, particularly for setting movement limits and simulating realistic interactions, felt very useful for creating a responsive door system. However, the documentation occasionally lacked depth in certain areas, such as troubleshooting specific issues that might arise with more complex setups. Overall, I agreed with its approach to constraints and appreciated its usability, though a bit more detail could enhance its effectiveness.
 
 ## Implementation
 
@@ -46,6 +52,8 @@ The implementation of the physics-based door was successful.Each stage progresse
 Another approach to this setup would be to program the door's physics directly, rather than using a physics constraint on the actor. By scripting the door’s movements, I could achieve more control over its interactions, such as fine-tuning its swing speed, dampening effects, and response time based on the player’s actions. This method would allow for customization in how the door responds to forces, enabling specific behaviors like adjusting the swing arc or controlling how quickly the door slows down. Programming the physics would also provide more flexibility for adding unique interactions or conditions, ultimately allowing for a more tailored and precise outcome.
 
 ## Bibliography
+
+Physics Constraint Component User Guide in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-constraint-component-user-guide-in-unreal-engine
 
 ## Declared Assets
 
