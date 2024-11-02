@@ -11,6 +11,10 @@ Sidd Ghosalkar
 - What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
 - What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
 
+For this project, I conducted extensive research on Physics Door and Physics Constraint and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
+
+[Additionally, I sought insights from practical tutorial and used an example of an existing game to deepen my understanding of Fire Particle Effect and ensure its proper implementation within the game.]
+
 #### Sources
 
 - An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
