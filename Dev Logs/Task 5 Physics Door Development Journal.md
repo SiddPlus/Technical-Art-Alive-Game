@@ -8,18 +8,11 @@ Sidd Ghosalkar
 
 ## Research
 
-- What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
-- What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
-
 For this project, I conducted extensive research on Physics Door and Physics Constraint and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
 
-[Additionally, I sought insights from practical tutorial and used an example of an existing game to deepen my understanding of Fire Particle Effect and ensure its proper implementation within the game.]
+Additionally, I sought insights from practical tutorial to deepen my understanding of Physics Door and Physics Constraint, to ensure its proper implementation within the game.
 
 #### Sources
-
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-- An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
 ###### Physics Constraint Component Unreal Engine User Guide
 
@@ -36,6 +29,15 @@ I found the guide valuable for its structured approach to configuring physics co
 For creating a physics-driven door in Unreal Engine, the Physics Constraint Reference explores key elements that are essential to your task. These include setting up hinge constraints, adjusting parameters for realistic motion, and using collision detection to interact with player input and objects. The documentation also covers how to manipulate constraint limits, damping, and stiffness to simulate realistic door movements that react naturally within the game world. This guidance is foundational for establishing responsive, physics-based interactions in Unreal Engine environments.
 
 Overall, I found the Physics Constraint Reference very helpful for guiding my work on the physics-driven door. I appreciated its clear explanations on parameters like hinge constraints and damping, which simplified the process of adding realistic physics. However, I would have preferred more practical examples or troubleshooting tips for complex interactions, as this would add context to the technical details. While I agree with most of the information presented, additional examples would strengthen its utility for beginners in physics simulation setups.
+
+
+###### Physics Door Thejollygrimreaper
+
+"Unreal Engine 5 Physics Constraints: A Door You Can Push" is part of a collection from a seasoned game development content creator on Unreal Engine. Known for accessible, step-by-step explanations, this creator has earned a positive reputation for aiding both beginners and intermediate developers. Their tutorials are appreciated for their practical applications, helping developers navigate UE5's complex tools, such as physics constraints. While this content is not award-winning, it is widely regarded as a useful resource, bolstered by the creator’s clear instruction and attention to detail in Unreal Engine mechanics.
+
+For this task, essential aspects include setting up and configuring a physics-driven door in Unreal Engine using physics constraints. The analysis involves exploring Unreal Engine's physics systems to ensure realistic door movement and interaction with other objects and player inputs. It covers adjusting constraint properties, collision settings, and hinge functionality, all necessary for creating smooth, responsive door mechanics. Testing and fine-tuning the interactions within the environment are also important to achieve a seamless experience, responsive to dynamic in-game actions.
+
+I appreciated the tutorial’s clarity in demonstrating the setup and properties of Unreal Engine's physics constraints, which made configuring the door mechanics straightforward and effective. The hands-on approach helped solidify the process, especially for real-world applications. However, I found some sections could benefit from additional depth, especially on troubleshooting common issues that may arise during implementation. Overall, I agreed with the techniques presented, as they aligned well with best practices for interactive physics objects in Unreal Engine.
 
 ## Implementation
 
@@ -69,5 +71,7 @@ Physics Constraint Component User Guide in Unreal Engine | Unreal Engine 5.5 Doc
 
 Physics Constraint Reference in Unreal Engine | Unreal Engine 5.0 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/physics-constraint-reference
 
-## Declared Assets
+How To Tutorial : Unreal Engine 5 Physics Constraints a Door you can push (2023) At: https://www.youtube.com/watch?v=rUCwGMOWZso 
 
+## Declared Assets
+ChatGPT (s.d.) At: https://chatgpt.com
