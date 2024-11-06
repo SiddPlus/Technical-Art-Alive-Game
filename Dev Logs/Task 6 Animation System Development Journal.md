@@ -55,13 +55,16 @@ Overall, I found the Unreal Engine documentation on Blend Spaces both informativ
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+I found that there was no programming involved in this task, which was somewhat disappointing. I would have preferred if it had included some programming aspects, as it would have made the process more engaging and aligned with my interests.
+
+The process of importing animations and the model, followed by creating the blend space and animation blueprint, went smoothly. Each step came together effectively, resulting in a seamless workflow that helped bring the character animations to life within the project.
 
 ### What would you do differently next time?
 
 - Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
 - Is there another aspect you believe should have been the focus?
+
+
 
 ## Bibliography
 
