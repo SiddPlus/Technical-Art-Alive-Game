@@ -17,6 +17,22 @@ Sidd Ghosalkar
 - List the aspects analysed in reference to the current task.
 - An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
+###### Behavior Trees Unreal Engine
+
+The Behavior Trees in Unreal Engine documentation by Epic Games provides an in-depth guide for using behavior trees within Unreal Engine, a feature crucial for AI-driven character actions in game development. Epic Games, known for its Unreal Engine software, is highly regarded in the industry for providing powerful tools and extensive documentation that support both novice and expert developers. Their documentation is generally well-received, as it offers practical, accessible guidance. Despite the occasional criticism for its complexity, Epic’s resources are trusted for their accuracy and technical rigor.
+
+[]
+
+I appreciated the Behavior Trees in Unreal Engine documentation for its detailed, step-by-step approach to creating AI behaviors, making a complex topic more accessible. The use of visual aids and clear examples is a plus, enhancing understanding. However, certain sections could benefit from more beginner-friendly explanations, as some technical concepts may feel dense for newcomers. Overall, the guide is robust and highly informative, aligning well with best practices in AI development, though a more layered approach could help engage a wider audience.
+
+###### Super Mario Galaxy
+
+Nintendo’s Super Mario Galaxy, developed by Nintendo EAD Tokyo and released in 2007, is one of the most acclaimed entries in the iconic Super Mario series. Directed by Yoshiaki Koizumi and produced by Shigeru Miyamoto, the game received widespread critical acclaim for its innovative gameplay, unique gravitational mechanics, and visually stunning design. Its development showcased Nintendo's dedication to pushing the boundaries of 3D platforming, particularly with its creative use of physics and planetary exploration. Super Mario Galaxy received numerous awards, including Game of the Year from several publications, and is often considered one of the greatest video games of all time. Although it was technically ambitious, its launch was smooth and devoid of major technical issues, setting a high standard for the franchise and for games on the Wii console.
+
+Super Mario Galaxy introduces unique gameplay mechanics centered around gravity and spherical platforming, distinguishing it from previous Mario titles. Players navigate Mario across small, planetoid-like environments, each with its own gravitational pull, allowing him to run upside-down and around curves in ways not seen in traditional platformers. The game's core mechanics include precise platforming, jumping, and combat, with Mario equipped with familiar moves like the triple jump, ground pound, and spin attack, which helps him interact with objects and defeat enemies. Additionally, the game incorporates motion controls via the Wii Remote, allowing players to collect “Star Bits” (used as in-game currency) and execute various actions, like aiming to shoot Star Bits at foes. Mario's journey takes him through a variety of themed galaxies, each with distinct gravity-based puzzles, environmental hazards, and level design challenges that exploit the 3D spherical landscapes. These mechanics, combined with gravity-defying platforming, create a fresh, immersive experience within the Mario universe, elevating traditional platforming with spatial dynamics.
+
+Playing Super Mario Galaxy was an unforgettable experience, primarily due to its imaginative level design and unique gravity mechanics, which transformed familiar platforming gameplay into something fresh and exhilarating. I particularly enjoyed how the game balanced accessible controls with complex environments, keeping the gameplay consistently engaging without overwhelming players. The use of gravity as a core mechanic was both innovative and well-executed, making exploration feel intuitive yet challenging. However, while the motion controls were an interesting addition, there were moments when they felt slightly gimmicky or unnecessary, particularly when aiming Star Bits at enemies. Overall, I agree with the widespread praise for Super Mario Galaxy—its ambitious design, polished mechanics, and the sheer joy of discovery make it a landmark in gaming. The game’s impact and Nintendo’s inventive approach more than justify its reputation as a modern classic.
+
 ## Implementation
 
 ### What was the process of completing the task? What influenced your decision making?
