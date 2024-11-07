@@ -47,7 +47,9 @@ Overall, I found the Unreal Engine documentation on Blend Spaces both informativ
 ## Outcome
 
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+- [Example Video Link](https://www.youtube.com/watch?v=rYyjzmbGlaE)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rYyjzmbGlaE?si=r3oDIcSgJN-xUVnJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
 
