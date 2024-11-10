@@ -71,4 +71,4 @@ Animation Blueprints in Unreal Engine | Unreal Engine 5.5 Documentation | Epic D
 
 Blend Spaces in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/blend-spaces-in-unreal-engine
 
-## Declared Assets
+Animation Montage in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine
