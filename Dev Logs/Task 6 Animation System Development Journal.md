@@ -10,14 +10,9 @@ Sidd Ghosalkar
 
 ### What sources or references have you identified as relevant to this task?
 
-- What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
-- What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
+For this project, I conducted extensive research on Animation Blueprint, Blend Space and Animation Montages and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
 
 #### Sources
-
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-- An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
 ###### Animation Blueprint Unreal Engine Documentation
 
@@ -35,14 +30,19 @@ In analyzing the Unreal Engine documentation on Blend Spaces, several key aspect
 
 Overall, I found the Unreal Engine documentation on Blend Spaces both informative and well-structured, making it easy to follow and implement the concepts into my animation system. I appreciated the step-by-step explanations and visual aids, which clarified each aspect of setting up Blend Spaces and creating smooth animation transitions. The source's emphasis on practical application through examples was particularly helpful, aligning well with the goals of my project. However, I felt that certain sections could have benefited from more advanced tips for complex setups or troubleshooting common issues, as this would have enriched the learning experience. Despite this, I fully agree with the recommended approaches and found the resource invaluable for understanding and implementing Blend Spaces effectively within my character animation system.
 
+###### Animation Montages Unreal Engine Documentation
+
+The Unreal Engine documentation on Animation Montages is published by Epic Games, the developer behind Unreal Engine, one of the most influential and widely used game engines in the industry. Epic Games is renowned for its high-quality, professional-grade tools that support advanced graphics, animation, and physics, empowering developers to create complex, immersive gaming experiences. This documentation provides detailed insights into Animation Montages, a powerful feature for managing complex animations within games. Known for thoroughness and accuracy, Epic Games’ official documentation is widely respected and trusted by developers at all levels, from beginners to experts. However, some users occasionally find that certain technical explanations assume a level of prior knowledge, which can pose challenges for newer developers.
+
+In the current task, the analysis focuses on key aspects of creating a character animation system in Unreal Engine using the information from the Animation Montages documentation. These aspects include the integration of animation blueprints to control the flow of animations, the use of blend spaces to seamlessly transition between walking, running, idle, jumping, and falling animations, and the implementation of state machines to manage the different character states. The documentation's focus on Animation Montages will be particularly relevant for organizing and controlling animation sequences, ensuring that transitions between different states, such as idle to run or run to jump, are smooth and fluid. Understanding how to leverage these features in Unreal Engine will be crucial for achieving the desired outcome in the animation system.
+
+I found the Unreal Engine documentation on Animation Montages to be very informative and well-structured, offering a clear and comprehensive guide for integrating complex animations into game development. The detailed explanations on animation blueprints, blend spaces, and state machines were especially helpful, providing a solid foundation for the task at hand. I appreciated the emphasis on practical applications, such as how to use Animation Montages to manage different animation sequences effectively. However, I did find some sections a bit dense, assuming a higher level of familiarity with Unreal Engine’s interface and terminology. While I agree with most of the documentation’s recommendations, I would have preferred more beginner-friendly examples for those less experienced with advanced animation techniques in Unreal Engine. Overall, the source is reliable and beneficial but could be more accessible for newcomers.
+
 ## Implementation
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
-
-<br>
+I created a blendspace to handle the transition from idle to running animations. Next, I set up an animation blueprint and defined a state for movement within it. Inside this state, I established transitions between the blendspace and the jump animation states. For the transition from blendspace to jump, I set the IsJumping variable to true, and for the transition back from jump to blendspace, I set IsJumping to false. In the blendspace node, I connected the Speed variable to control the blendspace, while in the jump node, I set up the jump animation. In the event graph, I connected both the Speed and IsJumping variables to the player character, ensuring smooth transitions. Finally, I added the default slot after the movement state to complete the setup.
 
 ## Outcome
 
@@ -63,10 +63,7 @@ The process of importing animations and the model, followed by creating the blen
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
-
-
+An alternative approach to using the animation system would have been to program the transitions between animations directly in C++. By handling the animations in code, I would have gained more control over the transition logic and conditions, potentially optimizing performance by bypassing the visual animation system. This approach would involve manually setting up conditions for each transition, such as detecting speed changes or jump inputs, and triggering the appropriate animations through code. Though this method requires more in-depth programming, it allows for highly customized and efficient control over the character's animations.
 
 ## Bibliography
 
