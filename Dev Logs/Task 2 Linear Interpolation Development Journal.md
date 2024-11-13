@@ -94,7 +94,11 @@ t = 1, the color will be blue
 
 *Link 2. A material lerping between 2 textures*
 
-I created two materials for my project. The first material transitioned smoothly between two colors, creating a dynamic visual effect. The second material, on the other hand, blended seamlessly between two textures, allowing for a more complex and textured appearance.
+In this task, I developed two unique materials to enhance the visual appeal and texture diversity. The first material utilized a smooth color transition, shifting between two distinct colors over time. This dynamic effect created a sense of movement and change, adding a vibrant and interactive quality to the material’s appearance. By adjusting transition speeds and colors, I could achieve a variety of moods and visual styles, making this material both versatile and engaging.
+
+The second material offered a different approach, blending two separate textures instead of colors. This technique allowed for greater complexity and realism, as the material displayed a layered effect with more nuanced details. By combining different textures, I could simulate materials with intricate patterns, such as stone or fabric, giving the task an enhanced, textural feel. The seamless blending between textures added depth to the material, making it appear more three-dimensional and natural.
+
+Both materials played distinct roles in the task, each contributing to a unique visual experience. The color-transitioning material provided a lively and reactive element, ideal for scenarios where movement or change was needed. In contrast, the texture-blending material offered a grounded, realistic look, perfect for areas that required rich, detailed surfaces. Together, these materials demonstrated the range of visual possibilities achievable in the task, from stylized effects to realistic textures.
 
 ## Outcome
 

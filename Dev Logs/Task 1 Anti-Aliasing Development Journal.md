@@ -128,7 +128,11 @@ In conclusion, TSR is the optimal choice for high-quality rendering with balance
 
 *(Link 2's code allows an object to be spawned in a random point contantly then deletes itself after couple of seconds)*
 
-I applied four different anti-aliasing methods while spawning spinning objects, and for each method, I measured both the FPS count and the stress on the GPU. This allowed me to analyze the performance impact and GPU load caused by each anti-aliasing technique, helping to determine which method provided the best balance between visual quality and system efficiency.
+I experimented with four different anti-aliasing methods while spawning spinning objects in Unreal Engine to assess their impact on both visual quality and system performance. By implementing these techniques, I aimed to gauge how each method handled object edges and minimized visual artifacts, like jagged lines, in a dynamic environment with continuous motion. This setup provided a robust testing ground for evaluating anti-aliasing under real-time rendering conditions, ensuring that I could analyze both static and animated scenarios effectively.
+
+To measure performance, I recorded the FPS (frames per second) count and GPU stress for each method, allowing me to pinpoint how each anti-aliasing technique affected system load. The FPS count provided insight into the smoothness of the gameplay experience, while monitoring GPU usage helped determine the computational demands associated with each method. Through these metrics, I could compare how resource-intensive each anti-aliasing technique was, giving me a clearer picture of its overall performance impact.
+
+Analyzing the data, I was able to identify the anti-aliasing method that offered the best balance between visual quality and performance. Some techniques provided excellent edge smoothing but placed a heavier load on the GPU, while others maintained higher FPS but at the cost of reduced image clarity. By comparing the results, I determined which method minimized artifacts without sacrificing too much performance, offering the ideal compromise for my project’s visual and technical needs.
 
 ### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
 
@@ -166,3 +170,7 @@ Anti Aliasing and Upscaling in Unreal Engine | Unreal Engine 5.4 Documentation |
 Zou, X., Xiao, F., Yu, Z., Li, Y. and Lee, Y. J. (2023) 'Delving Deeper into Anti-Aliasing in ConvNets' In: International Journal of Computer Vision 131 (1) pp.67–81.
 
 Digital Foundry: Anti-Aliasing - What Is It And Why Do We Need It? (2018) At: https://www.youtube.com/watch?v=NbrA4Nxd8Vo
+
+## Declared Assets
+
+ChatGPT (s.d.) At: https://chatgpt.com

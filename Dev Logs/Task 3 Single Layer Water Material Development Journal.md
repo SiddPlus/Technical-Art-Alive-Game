@@ -50,7 +50,11 @@ Overall, I greatly enjoyed Horizon Forbidden West for its stunning visuals, part
 
 *Link 1. A single layer water material*
 
-I created a single-layer water material that allows light to refract, reflect, and remain transparent. Additionally, I incorporated panning normals to simulate the movement of the water surface, creating a realistic ripple effect.
+I developed a single-layer water material designed to achieve realistic light interactions, allowing it to refract and reflect while maintaining transparency. This material carefully balanced visual properties to capture the essence of water, creating a natural effect that allowed underlying objects to be seen while distorting them slightly due to refraction. By fine-tuning the material’s reflective qualities, I ensured it could respond to lighting in the scene, adding a layer of realism as it reflected its surroundings.
+
+To enhance the dynamic quality of the water, I integrated panning normals into the material. This feature simulated the subtle, continuous movement of a water surface by shifting the normal maps over time, creating a ripple effect. These panning normals contributed to the illusion of depth and fluidity, making the water feel alive and responsive. This effect was essential for creating the sense of a flowing or gently moving surface, even in still areas, bringing the material closer to real-life water.
+
+Together, the refractive and reflective properties, combined with the ripple effect from panning normals, made this water material both visually engaging and convincing. The interplay of transparency, light reflection, and surface movement allowed the material to adapt well to different lighting conditions and scenes, whether used in a pond, pool, or ocean. This single-layer material effectively captured the complexity of water without excessive layers, offering an optimized yet realistic solution for water representation in my task.
 
 ## Outcome
 

@@ -50,7 +50,11 @@ Overall, I thoroughly enjoyed Final Fantasy VII Remake, particularly its attenti
 
 *A Fire Particle Effect*
 
-I created a fire particle effect that included flames, smoke, embers, and heat distortion. I also made it glow and illuminate the surrounding area. To achieve a more realistic fire movement, I carefully edited the emitters' properties, fine-tuning various settings to simulate the behavior of real fire.
+I designed a fire particle effect that combined multiple elements to create a captivating and realistic visual. The effect included not only flames but also swirling smoke, rising embers, and subtle heat distortion, each adding depth and authenticity to the fire. By layering these elements together, I achieved a multi-faceted effect that closely mirrored the complexity of a real fire, with each component interacting naturally as they would in the real world.
+
+To make the fire even more lifelike, I added a glow effect and adjusted the illumination to cast light on the surrounding area. This lighting allowed the fire to interact with nearby objects, casting shadows and creating a warm, flickering ambiance. The glow and illumination enhanced the realism by simulating the intensity and light output of actual flames, making the effect visually engaging and immersive within the scene.
+
+To capture the dynamic movement of fire, I meticulously edited the emitters’ properties, tweaking variables like spawn rate, velocity, and particle lifetime to reflect the unpredictable yet flowing behavior of flames. By fine-tuning these settings, I ensured that the flames flickered naturally, the smoke rose in gradual curls, and the embers drifted sporadically, all contributing to an authentic fire simulation. This attention to detail allowed the effect to achieve a delicate balance between realism and performance, making it a standout element in my task.
 
 ## Outcome
 
@@ -63,9 +67,6 @@ I created a fire particle effect that included flames, smoke, embers, and heat d
 ## Critical Reflection
 
 ### What did or did not work well and why?
-
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
 
 When I created the fire particle effect, I initially encountered an issue where the flames were facing downwards instead of rising upwards as intended. To resolve this, I adjusted the settings by turning off the gravity component within the particle system. Disabling gravity allowed the particles to move in the correct direction, achieving a more natural and realistic flame effect. This small adjustment made a significant difference in the final look of the effect. I would prefer if this task included more programming elements. While it allowed for creativity in other areas, a greater focus on coding would have made the experience more engaging and challenging. Incorporating programming would have provided opportunities to solve technical problems directly and deepen my understanding of the underlying mechanics, ultimately making the task more rewarding and aligned with my interests.
 

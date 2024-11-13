@@ -42,7 +42,11 @@ I found the Unreal Engine documentation on Animation Montages to be very informa
 
 ### What was the process of completing the task? What influenced your decision making?
 
-I created a blendspace to handle the transition from idle to running animations. Next, I set up an animation blueprint and defined a state for movement within it. Inside this state, I established transitions between the blendspace and the jump animation states. For the transition from blendspace to jump, I set the IsJumping variable to true, and for the transition back from jump to blendspace, I set IsJumping to false. In the blendspace node, I connected the Speed variable to control the blendspace, while in the jump node, I set up the jump animation. In the event graph, I connected both the Speed and IsJumping variables to the player character, ensuring smooth transitions. Finally, I added the default slot after the movement state to complete the setup.
+I began by creating a blendspace to manage the transition between idle and running animations, allowing for smooth and dynamic movement in my character's animation system. The blendspace was set up to blend between the idle and running states based on the character's speed, providing a seamless shift as the player moves. This blendspace setup enabled a more fluid and responsive animation system, ensuring that the character's movement matched the player's input in a natural way.
+
+Next, I set up an animation blueprint to define and control the character’s movement states. Inside the blueprint, I created a specific state for movement, where I integrated the previously created blendspace to transition between idle and running. I also configured transitions to a jump animation state, establishing rules for when the character should switch between these states. For the transition from the blendspace to the jump state, I set the "IsJumping" variable to true, and for the transition back, I set "IsJumping" to false, ensuring that the character’s actions aligned with the gameplay.
+
+In the event graph of the animation blueprint, I connected both the "Speed" and "IsJumping" variables to the player character, facilitating smooth transitions between the movement and jump animations. This setup ensured that as the player’s speed changed, the appropriate animation would play, and as the player triggered a jump, the jump animation would be activated. Finally, I added the default slot after the movement state to complete the animation blueprint, ensuring that the character's animation behavior was comprehensive, responsive, and seamlessly integrated into the gameplay.
 
 ## Outcome
 
@@ -72,3 +76,7 @@ Animation Blueprints in Unreal Engine | Unreal Engine 5.5 Documentation | Epic D
 Blend Spaces in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/blend-spaces-in-unreal-engine
 
 Animation Montage in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/animation-montage-in-unreal-engine
+
+## Declared Assets
+
+ChatGPT (s.d.) At: https://chatgpt.com
