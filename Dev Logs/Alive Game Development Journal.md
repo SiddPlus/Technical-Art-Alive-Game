@@ -25,6 +25,12 @@ The Behavior Trees in Unreal Engine documentation by Epic Games provides an in-d
 
 I appreciated the Behavior Trees in Unreal Engine documentation for its detailed, step-by-step approach to creating AI behaviors, making a complex topic more accessible. The use of visual aids and clear examples is a plus, enhancing understanding. However, certain sections could benefit from more beginner-friendly explanations, as some technical concepts may feel dense for newcomers. Overall, the guide is robust and highly informative, aligning well with best practices in AI development, though a more layered approach could help engage a wider audience.
 
+"Navigation System in Unreal Engine" is provided by Epic Games, the renowned developer behind Unreal Engine, one of the most widely used game engines in the industry. Epic Games has built a reputation for creating cutting-edge tools and technologies for game development, with Unreal Engine being a cornerstone of modern game design. The documentation is a reliable and authoritative resource for developers working with Unreal Engine, reflecting the company's commitment to providing comprehensive and up-to-date information. Epic Games has received numerous accolades for Unreal Engine, including awards for its groundbreaking contributions to the gaming and interactive media industries. The Navigation System documentation, specifically, plays a crucial role in guiding developers through the creation of AI pathfinding and navigation solutions within games, a fundamental aspect of game design. While generally well-regarded for its technical depth and clarity, the documentation can sometimes be overwhelming for beginners due to the complexity of the engine's systems, and occasional updates may lead to slight inconsistencies in older content. Nevertheless, Epic Games' continued support and regular updates ensure that the source remains a vital reference for professionals in the field.
+
+[]
+
+I found the "Navigation System in Unreal Engine" documentation from Epic Games to be an invaluable resource for understanding how to implement AI pathfinding and navigation within Unreal Engine. The depth of information provided, from basic concepts to advanced techniques, makes it an excellent reference for both beginners and seasoned developers. I particularly appreciated the clear explanations and the practical examples that help to demystify the complexities of navigation meshes and AI behavior. However, I did find some sections to be dense with technical jargon, which could make it challenging for newcomers to fully grasp the material without additional context. While I agree with the overall accuracy and usefulness of the content, I think more beginner-friendly examples and a clearer breakdown of the concepts could improve the accessibility for those less familiar with Unreal Engine. Nonetheless, the source offers a thorough, authoritative guide that is undeniably helpful for anyone looking to work with the navigation system in Unreal Engine.
+
 ###### Super Mario Galaxy
 
 Nintendo’s Super Mario Galaxy, developed by Nintendo EAD Tokyo and released in 2007, is one of the most acclaimed entries in the iconic Super Mario series. Directed by Yoshiaki Koizumi and produced by Shigeru Miyamoto, the game received widespread critical acclaim for its innovative gameplay, unique gravitational mechanics, and visually stunning design. Its development showcased Nintendo's dedication to pushing the boundaries of 3D platforming, particularly with its creative use of physics and planetary exploration. Super Mario Galaxy received numerous awards, including Game of the Year from several publications, and is often considered one of the greatest video games of all time. Although it was technically ambitious, its launch was smooth and devoid of major technical issues, setting a high standard for the franchise and for games on the Wii console.
@@ -42,14 +48,6 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <br>
 
-### What creative or technical approaches did you use or try, and how did this contribute to the outcome?
-
-- Did you try any new software or approaches? How did the effect development?
-
-<br>
-
-![onhover image description](https://beforesandafters.com/wp-content/uploads/2021/05/Welcome-to-Unreal-Engine-5-Early-Access-11-16-screenshot.png)
-*Figure 2. An example of an image as a figure. This image shows where to package your Unreal project!.*
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
