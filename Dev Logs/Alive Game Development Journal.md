@@ -83,9 +83,17 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 ## Bibliography
 
-Soul City: Fab (s.d.) At: https://www.fab.com/listings/dd77fee6-0ad2-41ce-b32c-09300c24c9f3
+
 
 ## Declared Assets
+
+Soul City: Fab (s.d.) At: https://www.fab.com/listings/dd77fee6-0ad2-41ce-b32c-09300c24c9f3
+
+https://sketchfab.com/3d-models/spike-trap-01-4022678cac214fd2963894aa152fc6f2
+
+https://sketchfab.com/3d-models/props-heart-852122c1055e44c78ba0016329f67853
+
+
 
 ```Markdown
 # General Tips
