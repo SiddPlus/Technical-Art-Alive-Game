@@ -970,6 +970,7 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.14-10.04.47:648][  0]LogPython: registering <class 'ControlRigWorkflows.workflow_deformation_rig_preset.provider'>
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 [2024.11.14-10.44.29:723][  0]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.060788 secs
 [2024.11.14-10.44.29:735][  1]LogAssetRegistry: AssetRegistryGather time 0.1098s: AssetDataDiscovery 0.0409s, AssetDataGather 0.0210s, StoreResults 0.0479s.
 	NumCachedDirectories 0. NumUncachedDirectories 1603. NumCachedFiles 8438. NumUncachedFiles 1.
@@ -1027,6 +1028,8 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.14-10.44.46:722][ 50]LogExit: Exiting.
 [2024.11.14-10.44.46:741][ 50]Log file closed, 11/14/24 10:44:46
 =======
+=======
+>>>>>>> parent of 4b390dd (commit)
 [2024.11.14-10.04.47:652][  0]Running Python start-up script 'C:/Program Files/Epic Games/UE_5.4/Engine/Plugins/Animation/ControlRig/Content/Python/init_unreal.py': 0.064403 secs
 [2024.11.14-10.04.47:669][  1]LogAssetRegistry: AssetRegistryGather time 0.1121s: AssetDataDiscovery 0.0412s, AssetDataGather 0.0237s, StoreResults 0.0472s.
 	NumCachedDirectories 0. NumUncachedDirectories 1603. NumCachedFiles 8436. NumUncachedFiles 3.
@@ -1483,4 +1486,7 @@ _MatTransl_3B7A55D3409170328211A060FC2E3BB1E263C720_BBD650804D314CE7A44ADF9BB4F3
 [2024.11.14-10.22.15:221][335]LogD3D12RHI: ~FD3D12DynamicRHI
 [2024.11.14-10.22.15:252][335]LogExit: Exiting.
 [2024.11.14-10.22.15:279][335]Log file closed, 11/14/24 10:22:15
+<<<<<<< HEAD
+>>>>>>> parent of 4b390dd (commit)
+=======
 >>>>>>> parent of 4b390dd (commit)
