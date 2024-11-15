@@ -89,9 +89,16 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 Soul City: Fab (s.d.) At: https://www.fab.com/listings/dd77fee6-0ad2-41ce-b32c-09300c24c9f3
 
-https://sketchfab.com/3d-models/spike-trap-01-4022678cac214fd2963894aa152fc6f2
+Spike Trap 01 - Download Free 3D model by Nichgon (2021) At: https://sketchfab.com/models/4022678cac214fd2963894aa152fc6f2/embed?autostart=1
 
-https://sketchfab.com/3d-models/props-heart-852122c1055e44c78ba0016329f67853
+Props Heart - Download Free 3D model by Alexandra Arzamazova (@a9646542086) (2024) At: https://sketchfab.com/models/852122c1055e44c78ba0016329f67853/embed?autostart=1
+
+Power Up - Download Free 3D model by Trockk (@Timrockk) (2024) At: https://sketchfab.com/models/fab43f5440f54143a015f2ed25f1d692/embed?autostart=1
+
+acasas (2018) 3d Pirate Coin. [Image] At: https://opengameart.org/content/3d-pirate-coin
+
+Sword - Download Free 3D model by minghauLoh (@minghau) (2016) At: https://sketchfab.com/models/07463a2658e04d6ab8a42b5639a35d63/embed?autostart=1
+ 
 
 
 
