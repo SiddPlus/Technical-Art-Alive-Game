@@ -16,6 +16,8 @@ Additionally, I sought valuable knowledge from practical tutorials to deepen my 
 
 ###### Linear Interpolation Matthew Wadstein
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fckeT6GyvPc?si=YAdT8to8eYLhNrzJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The video titled "WTF Is? Material - Linear Interpolate in Unreal Engine 4" from the YouTube channel of Matthew Wadstein, a well-known developer and educator in the game development community, particularly for Unreal Engine 4 (UE4). Wadstein's "WTF Is?" series breaks down complex Unreal Engine concepts into accessible, short tutorials. His work has gained recognition within the game development community due to its practicality and clarity, with the channel serving as a go-to resource for beginners and advanced users alike. While Wadstein's tutorials are widely praised for their educational value, they are considered most useful when supplemented by hands-on practice.
 
 In the video, Matthew Wadstein covers the fundamental aspects of using linear interpolation (lerp) in Unreal Engine. He explains the core concept of lerp, demonstrating how to implement it using the Lerp node within materials. The tutorial shows practical applications such as blending between two values, like colors or positions, over time or based on a parameter. Wadstein also explores controlling interpolation with parameters such as time or user input, and provides visual feedback of the transition results directly within Unreal Engine’s interface.

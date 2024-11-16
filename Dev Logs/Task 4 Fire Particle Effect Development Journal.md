@@ -24,6 +24,8 @@ I found the Unreal Particle Effects Tutorial by Epic Games to be an enjoyable an
 
 ###### Fire Particle Effect Motion Dreams
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/q8avHL7syC4?si=f8slOqFZM3x1lpds" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 The video titled "Fire Simulation FX in Unreal Engine Niagara" was created by UNF Games, a developer specializing in tutorials for Unreal Engine's visual effects system, Niagara. Known for concise and practical guides, UNF Games has built a reputation for helping developers implement complex visual effects efficiently. While their content has garnered positive reception for clarity and accessibility, it is primarily aimed at beginner to intermediate users of Unreal Engine. Despite their credibility within the niche, their lack of extensive industry recognition limits wider influence.
 
 In this analysis, key aspects of the video relevant to the current task are explored. The video breaks down step-by-step methods for creating a fire particle effect, focusing on system settings, emitters, and rendering techniques. It provides insights on configuring the particle system for realism, such as adjusting velocity, lifetime, and particle size. Additionally, the video demonstrates how to add smoke and embers, emphasizing both the visual appeal and performance optimization for game environments.

@@ -33,6 +33,8 @@ Overall, I found the Physics Constraint Reference very helpful for guiding my wo
 
 ###### Physics Door Thejollygrimreaper
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/rUCwGMOWZso?si=G35U3z5KQBh_4rXm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 "Unreal Engine 5 Physics Constraints: A Door You Can Push" is part of a collection from a seasoned game development content creator on Unreal Engine. Known for accessible, step-by-step explanations, this creator has earned a positive reputation for aiding both beginners and intermediate developers. Their tutorials are appreciated for their practical applications, helping developers navigate UE5's complex tools, such as physics constraints. While this content is not award-winning, it is widely regarded as a useful resource, bolstered by the creator’s clear instruction and attention to detail in Unreal Engine mechanics.
 
 For this task, essential aspects include setting up and configuring a physics-driven door in Unreal Engine using physics constraints. The analysis involves exploring Unreal Engine's physics systems to ensure realistic door movement and interaction with other objects and player inputs. It covers adjusting constraint properties, collision settings, and hinge functionality, all necessary for creating smooth, responsive door mechanics. Testing and fine-tuning the interactions within the environment are also important to achieve a seamless experience, responsive to dynamic in-game actions.
