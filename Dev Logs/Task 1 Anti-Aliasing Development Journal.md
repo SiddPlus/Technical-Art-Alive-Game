@@ -8,7 +8,7 @@ Sidd Ghosalkar
 
 ## Research
 
-For this project, I conducted extensive research on Anti-Aliasing and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
+For this Task, I conducted extensive research on Anti-Aliasing and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
 
 Additionally, I sought insights from technical experts to deepen my understanding of Anti-Aliasing and ensure its proper implementation within the game.
 

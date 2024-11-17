@@ -8,7 +8,7 @@ Sidd Ghosalkar
 
 ## Research
 
-For this project, I conducted extensive research on Physics Door and Physics Constraint and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
+For this Task, I conducted extensive research on Physics Door and Physics Constraint and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
 
 Additionally, I sought insights from practical tutorial to deepen my understanding of Physics Door and Physics Constraint, to ensure its proper implementation within the game.
 

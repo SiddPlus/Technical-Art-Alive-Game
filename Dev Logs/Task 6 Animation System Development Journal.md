@@ -10,7 +10,7 @@ Sidd Ghosalkar
 
 ### What sources or references have you identified as relevant to this task?
 
-For this project, I conducted extensive research on Animation Blueprint, Blend Space and Animation Montages and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
+For this Task, I conducted extensive research on Animation Blueprint, Blend Space and Animation Montages and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentations to develop my ability to learn new techniques independently and without direct guidance.
 
 #### Sources
 

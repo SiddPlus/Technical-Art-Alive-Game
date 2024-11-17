@@ -8,7 +8,7 @@ Sidd Ghosalkar
 
 ## Research
 
-For this project, I conducted extensive research on Single Layer Water Material and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
+For this Task, I conducted extensive research on Single Layer Water Material and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
 
 Additionally, I sought insights from technical experts and used an example of an existing game to deepen my understanding of Single Layer Water Material and ensure its proper implementation within the game.
 

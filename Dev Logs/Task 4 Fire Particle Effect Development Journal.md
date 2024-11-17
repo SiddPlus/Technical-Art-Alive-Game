@@ -8,7 +8,7 @@ Sidd Ghosalkar
 
 ## Research
 
-For this project, I conducted extensive research on Fire Particle Effect and explored the Unreal Engine to create a more immersive experience. I prioritized studying official tutorial to develop my ability to learn new techniques independently and without direct guidance.
+For this Task, I conducted extensive research on Fire Particle Effect and explored the Unreal Engine to create a more immersive experience. I prioritized studying official tutorial to develop my ability to learn new techniques independently and without direct guidance.
 
 Additionally, I sought insights from practical tutorial and used an example of an existing game to deepen my understanding of Fire Particle Effect and ensure its proper implementation within the game.
 
