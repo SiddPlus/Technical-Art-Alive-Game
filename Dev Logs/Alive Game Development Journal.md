@@ -8,14 +8,11 @@ Sidd Ghosalkar
 
 ## Research
 
-- What type of sources did you identity and want to explore? How would you justify it in reference to the brief set? Think about the focus of the brief.
-- What type of sources do you want to avoid? How could these kinds of sources be detrimental to the user experience, immersion or implementation?
+For this project, I conducted extensive research on behaviour trees and navigation system and explored the Unreal Engine to create a more immersive experience. I prioritized studying official documentation to develop my ability to learn new techniques independently and without direct guidance.
+
+Additionally, I used an example of an existing game to deepen my understanding of 3D platformer mechanics and ensure its proper implementation within the game.
 
 #### Sources
-
-- An opening paragraph about the source stating the author, developer or organisation, this paragraph should explain the source's influence, credentials, critical reception, awards, reputation or any issues with the source. For example, if the source is not reputable. If the source is a game, the issues that occurred during development or if had a poor launch.
-- List the aspects analysed in reference to the current task.
-- An ending paragraph stating what you enjoyed or disliked, what you agreed with or not agree with.
 
 ###### Behavior Trees Unreal Engine
 
