@@ -29,7 +29,7 @@ I appreciated the Behavior Trees in Unreal Engine documentation for its detailed
 
 "Navigation System in Unreal Engine" is provided by Epic Games, the renowned developer behind Unreal Engine, one of the most widely used game engines in the industry. Epic Games has built a reputation for creating cutting-edge tools and technologies for game development, with Unreal Engine being a cornerstone of modern game design. The documentation is a reliable and authoritative resource for developers working with Unreal Engine, reflecting the company's commitment to providing comprehensive and up-to-date information. Epic Games has received numerous accolades for Unreal Engine, including awards for its groundbreaking contributions to the gaming and interactive media industries. The Navigation System documentation, specifically, plays a crucial role in guiding developers through the creation of AI pathfinding and navigation solutions within games, a fundamental aspect of game design. While generally well-regarded for its technical depth and clarity, the documentation can sometimes be overwhelming for beginners due to the complexity of the engine's systems, and occasional updates may lead to slight inconsistencies in older content. Nevertheless, Epic Games' continued support and regular updates ensure that the source remains a vital reference for professionals in the field.
 
-[]
+The Navigation System in Unreal Engine provides tools for creating AI pathfinding and navigation capabilities within a project. Central to this system is the Navigation Mesh (NavMesh), a data structure that defines areas navigable by AI agents, generated based on the geometry of the environment. The system supports features like dynamic pathfinding, avoidance mechanisms, and agent-specific navigation settings. It allows customization through components, query filters, and project settings, enabling optimization for performance and adaptability to different scenarios. The system also integrates with Unreal Engine’s AI framework, facilitating realistic movement behaviors​.
 
 I found the "Navigation System in Unreal Engine" documentation from Epic Games to be an invaluable resource for understanding how to implement AI pathfinding and navigation within Unreal Engine. The depth of information provided, from basic concepts to advanced techniques, makes it an excellent reference for both beginners and seasoned developers. I particularly appreciated the clear explanations and the practical examples that help to demystify the complexities of navigation meshes and AI behavior. However, I did find some sections to be dense with technical jargon, which could make it challenging for newcomers to fully grasp the material without additional context. While I agree with the overall accuracy and usefulness of the content, I think more beginner-friendly examples and a clearer breakdown of the concepts could improve the accessibility for those less familiar with Unreal Engine. Nonetheless, the source offers a thorough, authoritative guide that is undeniably helpful for anyone looking to work with the navigation system in Unreal Engine.
 
@@ -83,7 +83,7 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 ## Bibliography
 
-
+Navigation System in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Developer Community (s.d.) At: https://dev.epicgames.com/documentation/en-us/unreal-engine/navigation-system-in-unreal-engine 
 
 ## Declared Assets
 
