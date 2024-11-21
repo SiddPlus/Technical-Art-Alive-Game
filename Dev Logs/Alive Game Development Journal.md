@@ -60,7 +60,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/g5kx_mt2/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+To implement the health system for the player, I developed an actor component dedicated to managing health functionality. This actor component ensures a modular approach, making it easier to reuse or extend in the future. Within the component, I created two core functions to handle health modifications: one for increasing health when the player gets healed and another for decreasing health when they take damage. These functions streamline the health management process, keeping the logic organized and encapsulated.
+
+Both functions include updates to the UI to reflect changes in real-time. Whenever the player's health increases or decreases, the health bar on the UI dynamically adjusts to provide immediate feedback. This integration enhances the player experience by keeping them informed about their current health status without relying on external cues or distractions. Ensuring the UI synchronizes seamlessly with gameplay was a crucial focus of this system.
+
+Additionally, I initialized the health bar UI value in the event graph at the start of the game. This step ensures that the health bar displays the correct value from the beginning, avoiding any inconsistencies or confusion. By setting the health bar's initial value and coupling it with the actor component's functions, I achieved a cohesive and responsive health system for the player.
 
 ###### BPC_CollectablesSystem
 
@@ -72,7 +76,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/687yzv0e/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+To implement the collectible system for the player, I developed an actor component designed specifically to manage coin pickups. This component provides a centralized structure for tracking the player's collected coins, ensuring consistency and scalability across the game. Within the component, I created a function that adds coins to the player's wallet whenever they interact with a coin actor in the level. This streamlined approach simplifies the management of collectible items and keeps the code modular.
+
+The function not only updates the player's wallet but also dynamically updates the UI to reflect the current coin count. Whenever a coin is collected, the coin text on the UI is immediately refreshed to display the updated total. This real-time feedback ensures the player is always aware of their progress, enhancing immersion and providing a satisfying sense of reward for each collectible picked up.
+
+To initialize the system, I set the coin text UI value in the event graph at the start of the game. This step ensures that the UI accurately displays the initial coin count, avoiding any discrepancies or confusion during gameplay. By combining the initialization step with the actor component's functionality, I achieved a cohesive and responsive collectible system that seamlessly integrates with the player experience.
 
 ###### Player Rolling
 
@@ -80,7 +88,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/0xk_xpj6/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+To implement a rolling mechanic for the player character, I began by creating an input action and mapping it to the left control key. This allowed me to define a specific input for triggering the roll. In the event graph of the third-person character blueprint, I added the enhanced input action node to handle the input event. This setup provides a responsive framework for executing the rolling mechanic based on player input.
+
+Next, I implemented logic to check the player's current state before initiating the roll. The first condition verifies if the player is not already rolling to prevent overlapping animations or unintended behavior. If this condition is true, the second check determines whether the player is currently attacking. These conditions are crucial for ensuring that the roll mechanic interacts seamlessly with other gameplay systems and animations.
+
+Depending on the outcomes of the conditions, the appropriate action is taken. If the player is not rolling and not attacking, the roll action is initiated. However, if the player is in the middle of an attack, the roll cancels the current attack instead of executing normally. This dual functionality adds depth to the system by allowing the roll to serve both as a movement option and a strategic tool to interrupt attacks when necessary.
 
 ###### Player & AI Hit
 
@@ -88,7 +100,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/hj2fvu0-/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+To enhance character interactivity, I implemented two custom events: Reaction and Die. The Reaction event handles responses to being hit by playing a hit reaction sound and triggering a hit reaction animation montage. Additionally, this event moves the character backward, simulating the physical impact of the hit. This setup provides immediate feedback to players and adds realism to combat interactions.
+
+The Die event focuses on handling the character’s death. For the player character, it disables input to prevent further actions and sets physics simulation to true, allowing for dynamic interactions with the environment upon death. Additionally, it resets the level for the player, ensuring a smooth transition to restart gameplay. These features create a clear distinction between being damaged and dying, enhancing the overall gameplay flow.
+
+To integrate these events, I used the Event Any Damage node to monitor when the character takes damage. Upon taking damage, the system decreases the character’s health and calls the Reaction custom event. Finally, it checks if the character’s health has reached zero, indicating death. If so, the Die custom event is triggered. This sequence ensures a cohesive and responsive system for handling damage, reactions, and death events in the game.
 
 ###### WB_MainMenu
 
@@ -112,37 +128,41 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/75u0wwmi/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
-
 [Open Pause Menu](https://blueprintue.com/blueprint/pjgd4ble/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/pjgd4ble/" scrolling="no" allowfullscreen></iframe>
 
 (PROCESS)
 
-###### WB_RotatingPlatform
+###### BP_RotatingPlatform
 
 [Rotating Platform](https://blueprintue.com/blueprint/cernxw0r/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/cernxw0r/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the User Construction Script, I set up the functionality to customize the rotation of the object by accessing the Rotating Movement Component node. This component is responsible for defining the rotational behavior of the actor. By configuring its rotation settings in the construction script, I ensured that the changes take effect immediately and are visible during the design phase.
 
-###### WB_MovingPlatform
+To make the rotation adjustable, I introduced a variable for the rotation rate. This variable determines how quickly the object rotates and can be easily modified in the scene view. By exposing it to the editor, I provided a user-friendly way to tweak the rotation speed without needing to dive into the script, which is particularly useful for testing and fine-tuning.
+
+This approach enhances flexibility and streamlines the design process. Designers or developers can quickly adjust the rotation rate to suit different gameplay scenarios or aesthetic requirements. By centralizing the rotation logic in the User Construction Script, the setup remains organized and efficient, ensuring consistent and predictable behavior.
+
+###### BP_MovingPlatform
 
 [Moving Platform](https://blueprintue.com/blueprint/m0qvpgvj/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/m0qvpgvj/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+ In the User Construction Script, I utilized the Interp To Movement Component node to set up movement behavior for the actor. This component allows the actor to interpolate smoothly between specified points, creating dynamic and customizable movement. To define the movement path, I added two Control Point Position nodes, which determine the starting and ending points of the interpolation.
 
-###### WB_Checkpoint
+The first control point position was set to (0, 0, 0), establishing a fixed starting location for the movement. This ensures that the movement always begins from a consistent and predictable position. For the second control point, I created a variable for its position, which I exposed in the scene view. This variable makes it easy to modify the endpoint of the movement path directly within the editor, offering a practical and efficient way to adjust the actor’s behavior during design.
+
+By combining these elements, I created a system that provides flexibility and ease of customization for the movement paths. Designers or developers can adjust the variable for the second control point to tailor the interpolation to suit specific gameplay needs or aesthetic requirements. This approach not only enhances efficiency during development but also ensures the movement remains adaptable to different scenarios.
+
+###### BP_Checkpoint
 
 [Checkpoint](https://blueprintue.com/blueprint/nd2zp_8g/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/nd2zp_8g/" scrolling="no" allowfullscreen></iframe>
-
-(PROCESS)
 
 [Player Reaches Checkpoint](https://blueprintue.com/blueprint/r2irbp27/)
 
@@ -156,7 +176,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/hg6p4wz1/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the Event Tick, I implemented functionality to make the actor continuously rotate by adding relative rotation. This rotation was set to increase by 1.5 degrees on the Z-axis during each tick, creating a smooth and consistent spinning motion. This visual effect adds dynamism to the actor, making it more noticeable and engaging for the player during gameplay.
+
+To handle interactions, I used the On Component Begin Overlap node to detect when the player collided with the actor. The node checks for overlap events and determines whether the colliding entity is the player. This ensures that only the player’s interactions trigger the following sequence of events, maintaining clear and purposeful gameplay behavior.
+
+When a collision with the player occurred, I added a coin to the player’s total, providing a tangible reward for the interaction. To enhance the experience, I played a pickup sound, offering audio feedback to reinforce the action. Finally, I destroyed the actor, removing it from the scene to signify that it had been collected. This sequence creates a satisfying and intuitive system for handling collectible items in the game.
 
 ###### BP_Heart
 
@@ -164,7 +188,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/qsmr_2ku/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the Event Tick, I implemented functionality to make the actor continuously rotate by adding relative rotation. This rotation was set to increase by 1.5 degrees on the Z-axis during each tick, creating a smooth and consistent spinning motion. This visual effect makes the actor more noticeable and draws attention to the health pickup, encouraging the player to interact with it during gameplay.
+
+To handle interactions, I used the On Component Begin Overlap node to detect when the player collided with the actor. The node checks for overlap events and ensures that the colliding entity is the player. This targeted detection ensures that only the player can interact with the health pickup, maintaining proper gameplay mechanics.
+
+When the player collided with the health pickup, I increased the player's health, providing a health boost as a reward for the interaction. To enhance the experience, I played a pickup sound, offering audio feedback to reinforce the action. Finally, I destroyed the actor, removing it from the scene to signify that it had been collected. This sequence creates a satisfying and intuitive system for handling health pickups in the game.
 
 ###### BP_Spikes
 
@@ -172,7 +200,11 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/cbo0pp8m/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the On Component Begin Overlap node, I first checked if the player collided with the actor. If the collision was detected, I set the IsColliding variable to true, indicating that the player is in contact with the actor. Afterward, I applied damage to the player and moved them back, creating a reaction to the collision. This ensures that the player takes damage and is pushed away from the source of the collision, providing feedback that something harmful has occurred.
+
+Additionally, I implemented a check to see if the player was still colliding. If the player remained in contact with the actor, the system would loop back and reapply damage, continuously harming the player while they stay in the collision area. This mechanic creates a persistent effect, ensuring that the player cannot avoid taking damage while in the active collision zone.
+
+In the On Component End Overlap node, I checked if the player was no longer colliding with the actor. If the player had moved out of the collision range, I set the IsColliding variable to false, stopping any further damage application. This helps ensure that damage is only applied while the player remains in the danger zone, making the system responsive and balanced.
 
 ###### BP_DeathBarrier
 
@@ -187,7 +219,7 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 [End Trigger](https://blueprintue.com/blueprint/x5kzgr1b/)
 <iframe width="1000" height="500" src="https://blueprintue.com/render/x5kzgr1b/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the On Component Begin Overlap node, I set it up so that when the player reaches the end, the game ends.
 
 ##### User Feedback
 
