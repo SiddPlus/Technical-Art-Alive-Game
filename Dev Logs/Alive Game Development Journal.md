@@ -150,6 +150,44 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 (PROCESS)
 
+###### BP_Coin
+
+[Coin Pick Up](https://blueprintue.com/blueprint/hg6p4wz1/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/hg6p4wz1/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### BP_Heart
+
+[Heart Pick Up](https://blueprintue.com/blueprint/qsmr_2ku/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/qsmr_2ku/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### BP_Spikes
+
+[Spikes Collision](https://blueprintue.com/blueprint/cbo0pp8m/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/cbo0pp8m/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### BP_DeathBarrier
+
+[Death Barrier](https://blueprintue.com/blueprint/347_e0g6/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/347_e0g6/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### BP_End
+
+[End Trigger](https://blueprintue.com/blueprint/x5kzgr1b/)
+<iframe width="1000" height="500" src="https://blueprintue.com/render/x5kzgr1b/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
 
 ##### User Feedback
 
