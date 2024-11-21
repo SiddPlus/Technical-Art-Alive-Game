@@ -44,9 +44,114 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 - What was the process of completing the task at hand? Did you do any initial planning?
 - Did you receive any feedback from users, peers or lecturers? How did you react to it?
+##### The Code & Process
 
-<br>
+###### BPC_HealthSystem
 
+[Health System: Increase Health Function](https://blueprintue.com/blueprint/y44yuumi/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/y44yuumi/" scrolling="no" allowfullscreen></iframe>
+
+[Health System: Decrease Health Function](https://blueprintue.com/blueprint/nl3tkw02/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/nl3tkw02/" scrolling="no" allowfullscreen></iframe>
+
+[Health System: Event Graph](https://blueprintue.com/blueprint/g5kx_mt2/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/g5kx_mt2/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### BPC_CollectablesSystem
+
+[Collectables System: Add Coins Function](https://blueprintue.com/blueprint/3j69m9le/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/3j69m9le/" scrolling="no" allowfullscreen></iframe>
+
+[Collectables System: Event Graph](https://blueprintue.com/blueprint/687yzv0e/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/687yzv0e/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### Player Rolling
+
+[Player Rolling](https://blueprintue.com/blueprint/0xk_xpj6/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/0xk_xpj6/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### Player & AI Hit
+
+[Player & AI Hit](https://blueprintue.com/blueprint/hj2fvu0-/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/hj2fvu0-/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_MainMenu
+
+[Main Menu](https://blueprintue.com/blueprint/p1gcv9sy/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/p1gcv9sy/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_SettingsMenu
+
+[Settings Menu](https://blueprintue.com/blueprint/_73latd-/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/_73latd-/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_PauseMenu
+
+[Pause Menu](https://blueprintue.com/blueprint/75u0wwmi/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/75u0wwmi/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+[Open Pause Menu](https://blueprintue.com/blueprint/pjgd4ble/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/pjgd4ble/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_RotatingPlatform
+
+[Rotating Platform](https://blueprintue.com/blueprint/cernxw0r/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/cernxw0r/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_MovingPlatform
+
+[Moving Platform](https://blueprintue.com/blueprint/m0qvpgvj/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/m0qvpgvj/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+###### WB_Checkpoint
+
+[Checkpoint](https://blueprintue.com/blueprint/nd2zp_8g/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/nd2zp_8g/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+[Player Reaches Checkpoint](https://blueprintue.com/blueprint/r2irbp27/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/r2irbp27/" scrolling="no" allowfullscreen></iframe>
+
+(PROCESS)
+
+
+##### User Feedback
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 

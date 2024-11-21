@@ -44,14 +44,6 @@ Overall, I thoroughly enjoyed Final Fantasy VII Remake, particularly its attenti
 
 ### What was the process of completing the task? What influenced your decision making?
 
-<br>
-
-[Fire Particle Effect](https://blueprintue.com/blueprint/44ikf52n/)
-
-<iframe width="1000" height="500" src="https://blueprintue.com/render/44ikf52n/" scrolling="no" allowfullscreen></iframe>
-
-*A Fire Particle Effect*
-
 I designed a fire particle effect that combined multiple elements to create a captivating and realistic visual. The effect included not only flames but also swirling smoke, rising embers, and subtle heat distortion, each adding depth and authenticity to the fire. By layering these elements together, I achieved a multi-faceted effect that closely mirrored the complexity of a real fire, with each component interacting naturally as they would in the real world.
 
 To make the fire even more lifelike, I added a glow effect and adjusted the illumination to cast light on the surrounding area. This lighting allowed the fire to interact with nearby objects, casting shadows and creating a warm, flickering ambiance. The glow and illumination enhanced the realism by simulating the intensity and light output of actual flames, making the effect visually engaging and immersive within the scene.
