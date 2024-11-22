@@ -106,23 +106,15 @@ The Die event focuses on handling the character’s death. For the player charac
 
 To integrate these events, I used the Event Any Damage node to monitor when the character takes damage. Upon taking damage, the system decreases the character’s health and calls the Reaction custom event. Finally, it checks if the character’s health has reached zero, indicating death. If so, the Die custom event is triggered. This sequence ensures a cohesive and responsive system for handling damage, reactions, and death events in the game.
 
-###### WB_MainMenu
+###### UI
 
 [Main Menu](https://blueprintue.com/blueprint/p1gcv9sy/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/p1gcv9sy/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
-
-###### WB_SettingsMenu
-
 [Settings Menu](https://blueprintue.com/blueprint/_73latd-/)
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/_73latd-/" scrolling="no" allowfullscreen></iframe>
-
-(PROCESS)
-
-###### WB_PauseMenu
 
 [Pause Menu](https://blueprintue.com/blueprint/75u0wwmi/)
 
@@ -132,7 +124,11 @@ To integrate these events, I used the Event Any Damage node to monitor when the 
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/pjgd4ble/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+I created three widget blueprints to enhance the user interface and player experience. The first was a main menu, which allowed the player to start the game, access the settings menu, or quit the game. The second was a settings menu, where the player could adjust graphics settings, toggle VSync, switch between window modes, and change the resolution. The third was a pause menu, which provided options to resume the game, access the settings menu, or return to the main menu. These menus created a cohesive and functional navigation system for the game.
+
+To implement the pause functionality, I created an input action and mapped it to the letter "P." In the event graph, I used the enhanced input action node to handle the input and determine the game's pause state. I checked if the game was not paused. If true, I set the game's pause state to true, created the pause menu widget, added it to the viewport, enabled the mouse cursor, and set the input mode to game and UI. This setup allowed the player to pause the game and interact with the menu seamlessly.
+
+If the game was already paused, the system reversed these actions. I set the game's pause state to false, removed the pause menu widget from the parent, disabled the mouse cursor, and set the input mode to game only. This ensured that the player could easily resume gameplay by pressing the pause button again, creating a smooth and intuitive experience for managing the game's state.
 
 ###### BP_RotatingPlatform
 
@@ -168,7 +164,11 @@ By combining these elements, I created a system that provides flexibility and ea
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/r2irbp27/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the On Component Begin Overlap node, I set up a system to ensure the checkpoint reacts when colliding with the player. Upon detecting the collision, I played a sound to provide immediate feedback, signifying that the checkpoint had been activated. Then, I updated the respawn transform to match the checkpoint's location and set the checkpoint's state to "on" by marking a variable as true. To visually indicate that the checkpoint had been used, I hid the static mesh of the checkpoint in the scene.
+
+When the player reaches a checkpoint, the system verifies whether the checkpoint is active. If the checkpoint is "on," I reset the player's position and rotation to match the stored respawn transform, effectively moving them back to the checkpoint. This functionality ensures the player respawns at the correct location after triggering the checkpoint, streamlining the respawn process for seamless gameplay.
+
+After repositioning the player, I enabled their input and set simulated physics to false, allowing the player to regain control and continue playing. This sequence of events ensures that checkpoints function as intended, providing both a visual and functional system for respawning, enhancing the player's experience and supporting smoother gameplay progression.
 
 ###### BP_Coin
 
@@ -212,7 +212,11 @@ In the On Component End Overlap node, I checked if the player was no longer coll
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/347_e0g6/" scrolling="no" allowfullscreen></iframe>
 
-(PROCESS)
+In the On Component Begin Overlap node, I implemented a check to detect if the actor collided with the player. This verification ensures that only the player triggers the event, maintaining specificity in the interaction. The system identifies the player as the target of the collision and initiates the next steps in response to the event.
+
+Upon detecting the player, I applied damage to reduce their health. The amount of damage applied could lead to the player's death if their health reaches zero. This mechanic introduces stakes to the gameplay, ensuring that the player must navigate carefully to avoid hazardous elements and preserve their health.
+
+By incorporating this mechanic, the game establishes a clear consequence for falling or colliding with dangerous actors. This not only adds a layer of challenge but also encourages players to be mindful of their surroundings. The system enhances the overall gameplay experience by creating a balance of risk and reward, keeping the player engaged and motivated to proceed with caution.
 
 ###### BP_End
 
