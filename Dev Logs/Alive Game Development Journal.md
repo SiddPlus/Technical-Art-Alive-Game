@@ -42,9 +42,9 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 
 ### What was the process of completing the task? What influenced your decision making?
 
-- What was the process of completing the task at hand? Did you do any initial planning?
-- Did you receive any feedback from users, peers or lecturers? How did you react to it?
 ##### The Code & Process
+
+- What was the process of completing the task at hand? Did you do any initial planning?
 
 ###### BPC_HealthSystem
 
@@ -226,6 +226,12 @@ By incorporating this mechanic, the game establishes a clear consequence for fal
 In the On Component Begin Overlap node, I set it up so that when the player reaches the end, the game ends.
 
 ##### User Feedback
+
+I received feedback from my lecturer, who had an overall positive reaction to the game. He highlighted that the level was engaging, describing it as both fun and challenging, which affirmed that the design captured the desired level of difficulty. This feedback was encouraging and provided a solid foundation to refine the gameplay experience further.
+
+One suggestion was to improve the animations by separating the jump and fall animations. The lecturer pointed out that having a dedicated falling animation would make the gameplay feel more polished and immersive, as it would better reflect the player’s actions. Additionally, he recommended adding an icon to the coin UI to enhance its visual clarity and make it more intuitive for players to track their collectibles.
+
+Another suggestion was to reposition the health bar to the bottom middle of the screen. This adjustment would make it easier for players to monitor their health during gameplay without breaking focus. Lastly, the lecturer emphasized the importance of addressing existing bugs, advising me to prioritize fixing these issues before adding new features. This approach ensures a smoother and more enjoyable experience for the player.
 
 ### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
 
