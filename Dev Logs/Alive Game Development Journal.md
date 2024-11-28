@@ -258,9 +258,13 @@ One suggestion was to improve the animations by separating the jump and fall ani
 
 Another suggestion was to reposition the health bar to the bottom middle of the screen. This adjustment would make it easier for players to monitor their health during gameplay without breaking focus. Lastly, the lecturer emphasized the importance of addressing existing bugs, advising me to prioritize fixing these issues before adding new features. This approach ensures a smoother and more enjoyable experience for the player.
 
-A suggestion for improving gameplay is to compress and shorten the player's attack animations, ensuring that combat feels more fluid and responsive. Shorter animations can make actions feel snappier, reducing delays and enhancing the overall combat experience. This adjustment would help players feel more engaged during fights and maintain a steady game pace.
+Another suggestion for improving gameplay is to compress and shorten the player's attack animations, ensuring that combat feels more fluid and responsive. Shorter animations can make actions feel snappier, reducing delays and enhancing the overall combat experience. This adjustment would help players feel more engaged during fights and maintain a steady game pace.
 
 Another recommendation is to include a loading screen when transitioning into the game. A clear loading screen not only improves the user interface but also signals to the player that the game is preparing to load, setting expectations and preventing confusion. It can also be an opportunity to provide helpful tips or lore to enhance the player's immersion during downtime.
+
+Another suggestion is to add blood splatter effects whenever the sword collides with either the player or an enemy. This visual feedback would make combat feel more impactful, clearly indicating when the sword has successfully struck its target. The blood splatter would enhance the realism of the battle and increase the intensity of the player's experience.
+
+Another suggestion is to incorporate ambiance into the environment to further immerse the player. implement this through background sounds. Adding ambiance would make the game world feel more alive and engaging, drawing players deeper into the experience.
 
 Lastly, allowing players to zoom the camera in and out from their character would give them more control over their perspective. This feature could be particularly useful for tailoring the experience to individual preferences, whether players want a closer, more immersive view or a wider angle to better assess their surroundings. Camera flexibility can significantly enhance player satisfaction and accessibility.
 
