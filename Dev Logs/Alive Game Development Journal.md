@@ -124,11 +124,11 @@ To integrate these events, I used the Event Any Damage node to monitor when the 
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/pjgd4ble/" scrolling="no" allowfullscreen></iframe>
 
-I created three widget blueprints to enhance the user interface and player experience. The first was a main menu, which allowed the player to start the game, access the settings menu, or quit the game. The second was a settings menu, where the player could adjust graphics settings, toggle VSync, switch between window modes, and change the resolution. The third was a pause menu, which provided options to resume the game, access the settings menu, or return to the main menu. These menus created a cohesive and functional navigation system for the game.
+I created four widget blueprints to enhance the player's interaction with the game. The first is the Main Menu, which serves as the entry point for the player. From here, they can choose to play the game, access the settings menu, or exit the game entirely. This menu is designed to provide an intuitive and straightforward navigation experience for the player.
 
-To implement the pause functionality, I created an input action and mapped it to the letter "P." In the event graph, I used the enhanced input action node to handle the input and determine the game's pause state. I checked if the game was not paused. If true, I set the game's pause state to true, created the pause menu widget, added it to the viewport, enabled the mouse cursor, and set the input mode to game and UI. This setup allowed the player to pause the game and interact with the menu seamlessly.
+The second widget blueprint is the Loading Screen, which appears when the player clicks "Play Game" from the main menu. This screen helps bridge the transition into the gameplay environment, ensuring the player understands that the game is actively loading. It improves the overall user experience by reducing any potential confusion during this process.
 
-If the game was already paused, the system reversed these actions. I set the game's pause state to false, removed the pause menu widget from the parent, disabled the mouse cursor, and set the input mode to game only. This ensured that the player could easily resume gameplay by pressing the pause button again, creating a smooth and intuitive experience for managing the game's state.
+The third widget blueprint is the Pause Menu, which allows players to pause the game when needed. From this menu, they can choose to resume gameplay, return to the main menu, or quit the game entirely. Lastly, the Settings Menu offers a range of customization options. Players can switch between windowed and fullscreen modes, select from five resolution options, adjust graphics quality across five presets, and toggle V-Sync on or off. These settings provide players with the flexibility to tailor the game to their preferences and hardware capabilities.
 
 ###### BP_RotatingPlatform
 
@@ -232,6 +232,12 @@ In the On Component Begin Overlap node, I set it up so that when the player reac
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/30nq-36q/" scrolling="no" allowfullscreen></iframe>
 
+First, I calculated the sun's rotation around the world using delta seconds to determine the transitions between day and night. This rotation forms the basis for simulating realistic lighting changes, marking when it is dark and when it is light. By leveraging delta seconds, I ensured that the transition aligns smoothly with the passage of time in the game world.
+
+For the transition from day to night, I used linear interpolation (lerp) to gradually shift the sun's intensity and color. I interpolated between the highest intensity value and the lowest intensity value to create a dimming effect as daylight fades. Simultaneously, I adjusted the color, transitioning from the lightest hues of day to the darkest shades of night, ensuring a natural and seamless shift in the environment.
+
+Similarly, for the transition from night to day, I applied the same lerping process but in reverse. I interpolated between the lowest intensity value and the highest, mimicking the gradual brightening as the sun rises. The color also shifted from the darkest hues of night to the lightest colors of day. These smooth transitions created a dynamic day-night cycle that enhances the game's atmosphere and immersion.
+
 ##### User Feedback
 
 I received feedback from my lecturer, who had an overall positive reaction to the game. He highlighted that the level was engaging, describing it as both fun and challenging, which affirmed that the design captured the desired level of difficulty. This feedback was encouraging and provided a solid foundation to refine the gameplay experience further.
@@ -245,10 +251,6 @@ A suggestion for improving gameplay is to compress and shorten the player's atta
 Another recommendation is to include a loading screen when transitioning into the game. A clear loading screen not only improves the user interface but also signals to the player that the game is preparing to load, setting expectations and preventing confusion. It can also be an opportunity to provide helpful tips or lore to enhance the player's immersion during downtime.
 
 Lastly, allowing players to zoom the camera in and out from their character would give them more control over their perspective. This feature could be particularly useful for tailoring the experience to individual preferences, whether players want a closer, more immersive view or a wider angle to better assess their surroundings. Camera flexibility can significantly enhance player satisfaction and accessibility.
-
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
 
 ## Outcome
 
@@ -268,13 +270,13 @@ Lastly, allowing players to zoom the camera in and out from their character woul
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+One problem I ran into is that when enemy's sword didn't do damage all the time, to solve I checked the sphere trace with player pawn instead of player tag. Another problem is when player's sword didn't do damage, to solve [].
+
+The progression from the development stage to the polish stage went very well. Each phase was executed smoothly, with consistent improvements made to the game's mechanics, visuals, and overall experience. This seamless transition ensured that all aspects of the game were refined and cohesive by the time it reached the due date.
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+If I were to approach this project differently, I would have chosen to create a game in a genre other than a platformer. Exploring a different genre could have opened up new possibilities for gameplay mechanics and player engagement, allowing me to experiment with unique design elements and challenges outside the typical platforming framework.
 
 ## Bibliography
 
