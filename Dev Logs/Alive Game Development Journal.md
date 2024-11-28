@@ -106,6 +106,18 @@ The Die event focuses on handling the character’s death. For the player charac
 
 To integrate these events, I used the Event Any Damage node to monitor when the character takes damage. Upon taking damage, the system decreases the character’s health and calls the Reaction custom event. Finally, it checks if the character’s health has reached zero, indicating death. If so, the Die custom event is triggered. This sequence ensures a cohesive and responsive system for handling damage, reactions, and death events in the game.
 
+###### Player Camera Zoom In/Out
+
+[Player Camera Zoom In/Out](https://blueprintue.com/blueprint/841cwtmn/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/841cwtmn/" scrolling="no" allowfullscreen></iframe>
+
+First, I began by creating an input action in the project and assigned an action value to it, which I then mapped to the scroll wheel. This input action allowed the player to control the camera zoom by scrolling. Mapping it to the scroll wheel provided an intuitive and responsive way for players to adjust their view of the character.
+
+Next, I multiplied the action value by -100, which allowed for the zooming effect to be more pronounced with each scroll. I then added the result of this multiplication to the camera boom's target arm length, controlling the camera's distance from the player character. By doing this, I was able to adjust the camera's positioning dynamically based on the player's input.
+
+Finally, I clamped the target arm length to a minimum value of 50 and a maximum value of 1000 to ensure that the camera wouldn't zoom too far in or out. Setting the target arm length in this way provided a smooth and controlled zooming mechanic, allowing players to easily zoom in and out from the player character while maintaining an optimal viewing distance.
+
 ###### UI
 
 [Main Menu](https://blueprintue.com/blueprint/p1gcv9sy/)
