@@ -252,10 +252,6 @@ Another recommendation is to include a loading screen when transitioning into th
 
 Lastly, allowing players to zoom the camera in and out from their character would give them more control over their perspective. This feature could be particularly useful for tailoring the experience to individual preferences, whether players want a closer, more immersive view or a wider angle to better assess their surroundings. Camera flexibility can significantly enhance player satisfaction and accessibility.
 
-### Did you have any technical difficulties? If so, what were they and did you manage to overcome them?
-
-- Did you have any issues completing the task? How did you overcome them?
-
 ## Outcome
 
 - [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
@@ -274,13 +270,13 @@ Lastly, allowing players to zoom the camera in and out from their character woul
 
 ### What did or did not work well and why?
 
-- What did not work well? What parts of the assignment that you felt did not fit the brief or ended up being lacklustre.
-- What did you think went very well? Were there any specific aspects you thought were very good?
+One problem I ran into is that when enemy's sword didn't do damage all the time, to solve I checked the sphere trace with player pawn instead of player tag. Another problem is when player's sword didn't do damage, to solve [].
+
+The progression from the development stage to the polish stage went very well. Each phase was executed smoothly, with consistent improvements made to the game's mechanics, visuals, and overall experience. This seamless transition ensured that all aspects of the game were refined and cohesive by the time it reached the due date.
 
 ### What would you do differently next time?
 
-- Are there any new approaches, methodologies or different software that you wish to incorporate if you have another chance?
-- Is there another aspect you believe should have been the focus?
+If I were to approach this project differently, I would have chosen to create a game in a genre other than a platformer. Exploring a different genre could have opened up new possibilities for gameplay mechanics and player engagement, allowing me to experiment with unique design elements and challenges outside the typical platforming framework.
 
 ## Bibliography
 
