@@ -312,8 +312,11 @@ acasas (2018) 3d Pirate Coin. [Image] At: https://opengameart.org/content/3d-pir
 
 Sword - Download Free 3D model by minghauLoh (@minghau) (2016) At: https://sketchfab.com/models/07463a2658e04d6ab8a42b5639a35d63/embed?autostart=1
  
+Mixamo Characters: Alien Soldier & Swat Guy
 
+Mixamo Animations: Idle, Ninja Run, Fast Run, Standing Jumping, Sprinting Foward Roll, Hit Reaction, One Hand Sword Combo, Stable Sword Inward Slash & Stable Sword Outward Slash
 
+Pixabay: Battle of the Dragons, Footstep 1,  Grunt 1, Hit Swing Sword Small 2, Item Equip, Ping
 
 ```Markdown
 # General Tips
