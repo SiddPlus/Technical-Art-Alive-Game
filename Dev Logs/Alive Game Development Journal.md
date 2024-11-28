@@ -124,11 +124,11 @@ To integrate these events, I used the Event Any Damage node to monitor when the 
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/pjgd4ble/" scrolling="no" allowfullscreen></iframe>
 
-I created three widget blueprints to enhance the user interface and player experience. The first was a main menu, which allowed the player to start the game, access the settings menu, or quit the game. The second was a settings menu, where the player could adjust graphics settings, toggle VSync, switch between window modes, and change the resolution. The third was a pause menu, which provided options to resume the game, access the settings menu, or return to the main menu. These menus created a cohesive and functional navigation system for the game.
+I created four widget blueprints to enhance the player's interaction with the game. The first is the Main Menu, which serves as the entry point for the player. From here, they can choose to play the game, access the settings menu, or exit the game entirely. This menu is designed to provide an intuitive and straightforward navigation experience for the player.
 
-To implement the pause functionality, I created an input action and mapped it to the letter "P." In the event graph, I used the enhanced input action node to handle the input and determine the game's pause state. I checked if the game was not paused. If true, I set the game's pause state to true, created the pause menu widget, added it to the viewport, enabled the mouse cursor, and set the input mode to game and UI. This setup allowed the player to pause the game and interact with the menu seamlessly.
+The second widget blueprint is the Loading Screen, which appears when the player clicks "Play Game" from the main menu. This screen helps bridge the transition into the gameplay environment, ensuring the player understands that the game is actively loading. It improves the overall user experience by reducing any potential confusion during this process.
 
-If the game was already paused, the system reversed these actions. I set the game's pause state to false, removed the pause menu widget from the parent, disabled the mouse cursor, and set the input mode to game only. This ensured that the player could easily resume gameplay by pressing the pause button again, creating a smooth and intuitive experience for managing the game's state.
+The third widget blueprint is the Pause Menu, which allows players to pause the game when needed. From this menu, they can choose to resume gameplay, return to the main menu, or quit the game entirely. Lastly, the Settings Menu offers a range of customization options. Players can switch between windowed and fullscreen modes, select from five resolution options, adjust graphics quality across five presets, and toggle V-Sync on or off. These settings provide players with the flexibility to tailor the game to their preferences and hardware capabilities.
 
 ###### BP_RotatingPlatform
 
