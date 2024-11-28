@@ -221,9 +221,16 @@ By incorporating this mechanic, the game establishes a clear consequence for fal
 ###### BP_End
 
 [End Trigger](https://blueprintue.com/blueprint/x5kzgr1b/)
+
 <iframe width="1000" height="500" src="https://blueprintue.com/render/x5kzgr1b/" scrolling="no" allowfullscreen></iframe>
 
 In the On Component Begin Overlap node, I set it up so that when the player reaches the end, the game ends.
+
+###### Day & Night Cycle
+
+[Day & Night](https://blueprintue.com/blueprint/30nq-36q/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/30nq-36q/" scrolling="no" allowfullscreen></iframe>
 
 ##### User Feedback
 
