@@ -232,6 +232,12 @@ In the On Component Begin Overlap node, I set it up so that when the player reac
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/30nq-36q/" scrolling="no" allowfullscreen></iframe>
 
+First, I calculated the sun's rotation around the world using delta seconds to determine the transitions between day and night. This rotation forms the basis for simulating realistic lighting changes, marking when it is dark and when it is light. By leveraging delta seconds, I ensured that the transition aligns smoothly with the passage of time in the game world.
+
+For the transition from day to night, I used linear interpolation (lerp) to gradually shift the sun's intensity and color. I interpolated between the highest intensity value and the lowest intensity value to create a dimming effect as daylight fades. Simultaneously, I adjusted the color, transitioning from the lightest hues of day to the darkest shades of night, ensuring a natural and seamless shift in the environment.
+
+Similarly, for the transition from night to day, I applied the same lerping process but in reverse. I interpolated between the lowest intensity value and the highest, mimicking the gradual brightening as the sun rises. The color also shifted from the darkest hues of night to the lightest colors of day. These smooth transitions created a dynamic day-night cycle that enhances the game's atmosphere and immersion.
+
 ##### User Feedback
 
 I received feedback from my lecturer, who had an overall positive reaction to the game. He highlighted that the level was engaging, describing it as both fun and challenging, which affirmed that the design captured the desired level of difficulty. This feedback was encouraging and provided a solid foundation to refine the gameplay experience further.
