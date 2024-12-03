@@ -118,6 +118,22 @@ Next, I multiplied the action value by -100, which allowed for the zooming effec
 
 Finally, I clamped the target arm length to a minimum value of 50 and a maximum value of 1000 to ensure that the camera wouldn't zoom too far in or out. Setting the target arm length in this way provided a smooth and controlled zooming mechanic, allowing players to easily zoom in and out from the player character while maintaining an optimal viewing distance.
 
+###### Power Up
+
+[Power Up](https://blueprintue.com/blueprint/ag34zmv5/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/ag34zmv5/" scrolling="no" allowfullscreen></iframe>
+
+[Power Up Active](https://blueprintue.com/blueprint/645v7_7x/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/645v7_7x/" scrolling="no" allowfullscreen></iframe>
+
+First, I added a sphere collider to the power-up object and implemented functionality to detect player collisions. When the player collided with the power-up, I set the IsActive variable to true, updated the damage value to 2, and ensured the power-up's visibility was enabled. After these changes, I destroyed the power-up actor to indicate that it had been collected.
+
+Next, in the Event Tick function, I added logic to monitor the state of the IsActive variable. If IsActive was true, I utilized a time-tracking variable and incremented it with Delta Seconds from each frame. This updated time value allowed me to track how long the power-up effects were active in real-time.
+
+Finally, I checked whether the tracked time reached or exceeded 10 seconds. If so, I reset the power-up's effects by setting IsActive back to false, returning the damage value to its default of 1, and disabling the visibility of the power-up. This ensured that the power-up's effects were temporary and would revert after the designated duration.
+
 ###### UI
 
 [Main Menu](https://blueprintue.com/blueprint/p1gcv9sy/)
