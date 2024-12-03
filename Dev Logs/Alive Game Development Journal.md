@@ -32,7 +32,7 @@ I found the "Navigation System in Unreal Engine" documentation from Epic Games t
 
 ###### Super Mario Galaxy
 
-Nintendo’s Super Mario Galaxy, developed by Nintendo EAD Tokyo and released in 2007, is one of the most acclaimed entries in the iconic Super Mario series. Directed by Yoshiaki Koizumi and produced by Shigeru Miyamoto, the game received widespread critical acclaim for its innovative gameplay, unique gravitational mechanics, and visually stunning design. Its development showcased Nintendo's dedication to pushing the boundaries of 3D platforming, particularly with its creative use of physics and planetary exploration. Super Mario Galaxy received numerous awards, including Game of the Year from several publications, and is often considered one of the greatest video games of all time. Although it was technically ambitious, its launch was smooth and devoid of major technical issues, setting a high standard for the franchise and for games on the Wii console.
+Nintendo’s Super Mario Galaxy, developed by Nintendo EAD Tokyo and released in 2007, is one of the most acclaimed entries in the iconic Super Mario series. Directed by Yoshiaki Koizumi and produced by Shigeru Miyamoto , the game received widespread critical acclaim for its innovative gameplay, unique gravitational mechanics, and visually stunning design. Its development showcased Nintendo's dedication to pushing the boundaries of 3D platforming, particularly with its creative use of physics and planetary exploration. Super Mario Galaxy received numerous awards, including Game of the Year from several publications, and is often considered one of the greatest video games of all time. Although it was technically ambitious, its launch was smooth and devoid of major technical issues, setting a high standard for the franchise and for games on the Wii console.
 
 Super Mario Galaxy introduces unique gameplay mechanics centered around gravity and spherical platforming, distinguishing it from previous Mario titles. Players navigate Mario across small, planetoid-like environments, each with its own gravitational pull, allowing him to run upside-down and around curves in ways not seen in traditional platformers. The game's core mechanics include precise platforming, jumping, and combat, with Mario equipped with familiar moves like the triple jump, ground pound, and spin attack, which helps him interact with objects and defeat enemies. Additionally, the game incorporates motion controls via the Wii Remote, allowing players to collect “Star Bits” (used as in-game currency) and execute various actions, like aiming to shoot Star Bits at foes. Mario's journey takes him through a variety of themed galaxies, each with distinct gravity-based puzzles, environmental hazards, and level design challenges that exploit the 3D spherical landscapes. These mechanics, combined with gravity-defying platforming, create a fresh, immersive experience within the Mario universe, elevating traditional platforming with spatial dynamics.
 
@@ -43,8 +43,6 @@ Playing Super Mario Galaxy was an unforgettable experience, primarily due to its
 ### What was the process of completing the task? What influenced your decision making?
 
 ##### The Code & Process
-
-- What was the process of completing the task at hand? Did you do any initial planning?
 
 ###### BPC_HealthSystem
 
@@ -82,6 +80,18 @@ The function not only updates the player's wallet but also dynamically updates t
 
 To initialize the system, I set the coin text UI value in the event graph at the start of the game. This step ensures that the UI accurately displays the initial coin count, avoiding any discrepancies or confusion during gameplay. By combining the initialization step with the actor component's functionality, I achieved a cohesive and responsive collectible system that seamlessly integrates with the player experience.
 
+###### BPC_AttackSystem
+
+[Attack System](https://blueprintue.com/blueprint/p2yudqnb/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/p2yudqnb/" scrolling="no" allowfullscreen></iframe>
+
+First, I created an Input Action for the attack and mapped it to the left mouse click, enabling the player to initiate attacks. To manage attack conditions, I checked if CanAttack was true and IsAttacking was false. If these conditions were met, I set SaveAttack to true, allowing the attack logic to proceed. I then used a switch mechanism with an index to transition between different attack animations, creating a combo system for dynamic combat.
+
+Next, I incorporated animation notifies to manage the flow of the combo. These notifies were used to either transition to the next attack in the combo sequence or end the combo if no further input was received. This approach ensured smooth and controlled transitions between attack animations, maintaining fluidity and responsiveness in the player's combat actions.
+
+For enemy detection, I implemented a sphere trace to check if the sword collided with an enemy. When the sphere trace detected an enemy, damage was applied accordingly. To synchronize the sphere trace with the attack animations, I utilized animation notify states, ensuring the sphere trace was active only during the exact part of the animation where the sword should deal damage. This integration provided precise hit detection and a more immersive combat experience.
+
 ###### Player Rolling
 
 [Player Rolling](https://blueprintue.com/blueprint/0xk_xpj6/)
@@ -117,6 +127,33 @@ First, I began by creating an input action in the project and assigned an action
 Next, I multiplied the action value by -100, which allowed for the zooming effect to be more pronounced with each scroll. I then added the result of this multiplication to the camera boom's target arm length, controlling the camera's distance from the player character. By doing this, I was able to adjust the camera's positioning dynamically based on the player's input.
 
 Finally, I clamped the target arm length to a minimum value of 50 and a maximum value of 1000 to ensure that the camera wouldn't zoom too far in or out. Setting the target arm length in this way provided a smooth and controlled zooming mechanic, allowing players to easily zoom in and out from the player character while maintaining an optimal viewing distance.
+
+###### Enemy AI
+
+[Enemy AI](https://blueprintue.com/blueprint/x30vlk6j/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/x30vlk6j/" scrolling="no" allowfullscreen></iframe>
+
+First, I checked whether CanAttack was true and IsAttacking was false. If both conditions were met, I set SaveAttack to true, allowing the attack logic to activate. This setup ensured that attacks could only proceed under the right circumstances, preventing unintended behavior during combat. I then used a switch mechanism with an index to cycle through different attack animations, enabling a combo system where each attack could transition seamlessly into the next.
+
+To control the flow of the combo, I employed animation notifies, which triggered transitions to the next part of the combo or ended it if no further input was detected. These notifies made the combat system more dynamic by allowing players to chain attacks or conclude the sequence naturally, depending on their actions. This approach kept the animations smooth and the gameplay engaging.
+
+For collision detection, I implemented a sphere trace to determine whether the sword made contact with the player. If the sphere trace detected the player, damage was applied. To synchronize this collision detection with the animations, I used animation notify states to ensure the sphere trace ran only during the exact portion of the animation where the sword was expected to hit. This method provided precise timing for hit registration and enhanced the overall combat realism.
+###### Power Up
+
+[Power Up](https://blueprintue.com/blueprint/ag34zmv5/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/ag34zmv5/" scrolling="no" allowfullscreen></iframe>
+
+[Power Up Active](https://blueprintue.com/blueprint/645v7_7x/)
+
+<iframe width="1000" height="500" src="https://blueprintue.com/render/645v7_7x/" scrolling="no" allowfullscreen></iframe>
+
+First, I added a sphere collider to the power-up object and implemented functionality to detect player collisions. When the player collided with the power-up, I set the IsActive variable to true, updated the damage value to 2, and ensured the power-up's visibility was enabled. After these changes, I destroyed the power-up actor to indicate that it had been collected.
+
+Next, in the Event Tick function, I added logic to monitor the state of the IsActive variable. If IsActive was true, I utilized a time-tracking variable and incremented it with Delta Seconds from each frame. This updated time value allowed me to track how long the power-up effects were active in real-time.
+
+Finally, I checked whether the tracked time reached or exceeded 10 seconds. If so, I reset the power-up's effects by setting IsActive back to false, returning the damage value to its default of 1, and disabling the visibility of the power-up. This ensured that the power-up's effects were temporary and would revert after the designated duration.
 
 ###### UI
 
@@ -286,7 +323,7 @@ Lastly, allowing players to zoom the camera in and out from their character woul
 
 ### What did or did not work well and why?
 
-One problem I ran into is that when enemy's sword didn't do damage all the time, to solve I checked the sphere trace with player pawn instead of player tag. Another problem is when player's sword didn't do damage, to solve [].
+One problem I ran into is that when enemy's sword didn't do damage all the time, to solve this I checked the sphere trace with player pawn instead of player tag. Another problem is when player's sword didn't do damage, to solve this I checked the sphere trace with the enemy class instead of enemy tag.
 
 The progression from the development stage to the polish stage went very well. Each phase was executed smoothly, with consistent improvements made to the game's mechanics, visuals, and overall experience. This seamless transition ensured that all aspects of the game were refined and cohesive by the time it reached the due date.
 
@@ -318,21 +355,8 @@ Sword - Download Free 3D model by minghauLoh (@minghau) (2016) At: https://sketc
  
 Mixamo Characters: Alien Soldier & Swat Guy
 
-Mixamo Animations: Idle, Ninja Run, Fast Run, Standing Jumping, Sprinting Foward Roll, Hit Reaction, One Hand Sword Combo, Stable Sword Inward Slash & Stable Sword Outward Slash
+Mixamo Animations: Idle, Ninja Run, Fast Run, Standing Jumping Up, Jumping Down, Falling Idle, Sprinting Foward Roll, Hit Reaction, One Hand Sword Combo, Stable Sword Inward Slash & Stable Sword Outward Slash
 
 Pixabay: Battle of the Dragons, Footstep 1,  Grunt 1, Hit Swing Sword Small 2, Item Equip, Ping
 
-```Markdown
-# General Tips
 
-- Use plenty of images and videos to demonstrate your point. You can embed YouTube tutorials, your own recordings, etc.
-- Always reference! Even documentation, tutorials and anything you used for your assignment. Use an inline reference for the sentence and a bibliography reference at the end.
-- Word count is not important, you can also chose to use bullet points. As long as it is clear and readable, the format your decide to use can be flexible.
-- You are free to use AI but please ensure you have made a note in the declared assets, for example if you have a script called Test.cs , you should note that AI was used to in the creation of this script. You can use a bullet point list for each asset used like:
-
-The following assets were created or modified with the use of GPT 4o:
-- Test.cs
-- AnotherScript.cs
-- Development Journal.html
-
-```
