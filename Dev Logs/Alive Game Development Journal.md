@@ -86,6 +86,12 @@ To initialize the system, I set the coin text UI value in the event graph at the
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/p2yudqnb/" scrolling="no" allowfullscreen></iframe>
 
+First, I created an Input Action for the attack and mapped it to the left mouse click, enabling the player to initiate attacks. To manage attack conditions, I checked if CanAttack was true and IsAttacking was false. If these conditions were met, I set SaveAttack to true, allowing the attack logic to proceed. I then used a switch mechanism with an index to transition between different attack animations, creating a combo system for dynamic combat.
+
+Next, I incorporated animation notifies to manage the flow of the combo. These notifies were used to either transition to the next attack in the combo sequence or end the combo if no further input was received. This approach ensured smooth and controlled transitions between attack animations, maintaining fluidity and responsiveness in the player's combat actions.
+
+For enemy detection, I implemented a sphere trace to check if the sword collided with an enemy. When the sphere trace detected an enemy, damage was applied accordingly. To synchronize the sphere trace with the attack animations, I utilized animation notify states, ensuring the sphere trace was active only during the exact part of the animation where the sword should deal damage. This integration provided precise hit detection and a more immersive combat experience.
+
 ###### Player Rolling
 
 [Player Rolling](https://blueprintue.com/blueprint/0xk_xpj6/)
@@ -128,8 +134,11 @@ Finally, I clamped the target arm length to a minimum value of 50 and a maximum 
 
 <iframe width="1000" height="500" src="https://blueprintue.com/render/x30vlk6j/" scrolling="no" allowfullscreen></iframe>
 
+First, I checked whether CanAttack was true and IsAttacking was false. If both conditions were met, I set SaveAttack to true, allowing the attack logic to activate. This setup ensured that attacks could only proceed under the right circumstances, preventing unintended behavior during combat. I then used a switch mechanism with an index to cycle through different attack animations, enabling a combo system where each attack could transition seamlessly into the next.
 
+To control the flow of the combo, I employed animation notifies, which triggered transitions to the next part of the combo or ended it if no further input was detected. These notifies made the combat system more dynamic by allowing players to chain attacks or conclude the sequence naturally, depending on their actions. This approach kept the animations smooth and the gameplay engaging.
 
+For collision detection, I implemented a sphere trace to determine whether the sword made contact with the player. If the sphere trace detected the player, damage was applied. To synchronize this collision detection with the animations, I used animation notify states to ensure the sphere trace ran only during the exact portion of the animation where the sword was expected to hit. This method provided precise timing for hit registration and enhanced the overall combat realism.
 ###### Power Up
 
 [Power Up](https://blueprintue.com/blueprint/ag34zmv5/)
