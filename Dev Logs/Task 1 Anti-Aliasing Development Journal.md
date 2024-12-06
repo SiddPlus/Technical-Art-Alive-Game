@@ -175,4 +175,4 @@ Digital Foundry: Anti-Aliasing - What Is It And Why Do We Need It? (2018) At: ht
 
 ## Declared Assets
 
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log

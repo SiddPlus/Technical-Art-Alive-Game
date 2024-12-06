@@ -132,5 +132,5 @@ Linear Interpolation Explained (s.d.) At: https://gamedev.net/tutorials/programm
 
 ## Declared Assets
 
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log
 

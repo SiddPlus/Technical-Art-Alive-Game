@@ -86,4 +86,4 @@ Horizon Forbidden West PS4/PS5 (2022) Developed by Guerrilla Games and published
 
 ## Declared Assets
 
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log

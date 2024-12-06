@@ -80,4 +80,4 @@ Physics Constraint Reference in Unreal Engine | Unreal Engine 5.0 Documentation 
 How To Tutorial : Unreal Engine 5 Physics Constraints a Door you can push (2023) At: https://www.youtube.com/watch?v=rUCwGMOWZso 
 
 ## Declared Assets
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log

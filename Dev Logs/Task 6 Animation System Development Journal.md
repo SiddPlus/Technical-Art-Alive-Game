@@ -79,4 +79,4 @@ Animation Montage in Unreal Engine | Unreal Engine 5.5 Documentation | Epic Deve
 
 ## Declared Assets
 
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log

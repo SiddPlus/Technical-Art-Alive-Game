@@ -79,7 +79,7 @@ Fire Simulation FX in Unreal Engine Niagara | in 12 minutes (2023) At: https://w
 Final Fantasy VII Remake PS4 (2020) Developed by Creative Business Unit I and published by Square Enix
 
 ## Declared Assets
-ChatGPT (s.d.) At: https://chatgpt.com
+ChatGPT (s.d.) At: https://chatgpt.com: Helped rewording the dev log
 
 
 
