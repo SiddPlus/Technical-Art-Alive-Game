@@ -1,4 +1,4 @@
-# Alive Game
+# Task: Advanced Technical Art Project
 
 Technical Art
 
@@ -307,17 +307,15 @@ Lastly, allowing players to zoom the camera in and out from their character woul
 
 ## Outcome
 
-- [Example Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+- [Outcome Video Link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley)
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/eSQjol-Yd-o?si=gf20K_QJ8RgXChjs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 - [Outcome Repo Link](https://github.com/SiddPlus/Technical-Art-Alive-Game/tree/main)
-- [Example Build Link](https://samperson.itch.io/desktop-goose)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?si=C4v0qHaYuEISAC01" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+- [Outcome Build Link](https://siddplus.itch.io/parkour-alien)
 
-*Figure 3. An example of an embedded video using a HTML code snippet.*
-
-<iframe frameborder="0" src="https://itch.io/embed/2374819" width="552" height="167"><a href="https://bitboyb.itch.io/nephilim-resurrection">Nephilim Resurrection (BETA) by bitboyb</a></iframe>
-
-*Figure 4. An example of a itch.io widget*
+<iframe frameborder="0" src="https://itch.io/embed/3158459" width="552" height="167"><a href="https://siddplus.itch.io/parkour-alien">Parkour Alien by SiddPlus</a></iframe>
 
 ## Critical Reflection
 
@@ -359,6 +357,6 @@ Mixamo (s.d.) At: https://www.mixamo.com/#/?page=1&type=Character: Alien Soldier
 
 Mixamo (s.d.) At: https://www.mixamo.com/#/?page=1&type=Motion%2CMotionPack: Idle, Ninja Run, Fast Run, Jumping Up, Jumping Down, Falling Idle, Sprinting Foward Roll, Hit Reaction, One Hand Sword Combo, Stable Sword Inward Slash & Stable Sword Outward Slash
 
-Pixabay: Battle of the Dragons, Footstep 1,  Grunt 1, Hit Swing Sword Small 2, Item Equip, Ping
+90,000+ Free Sound Effects for Download - Pixabay (s.d.) At: https://pixabay.com/sound-effects/: Battle of the Dragons, Footstep 1,  Grunt 1, Hit Swing Sword Small 2, Item Equip, Ping
 
 
